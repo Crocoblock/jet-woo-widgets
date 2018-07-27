@@ -633,33 +633,6 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 		);
 
 		$this->add_responsive_control(
-			'title_alignment',
-			array(
-				'label'     => esc_html__( 'Alignment', 'jet-woo-widgets' ),
-				'type'      => Controls_Manager::CHOOSE,
-				'default'   => 'center',
-				'options'   => array(
-					'left'   => array(
-						'title' => esc_html__( 'Left', 'jet-woo-widgets' ),
-						'icon'  => 'fa fa-align-left',
-					),
-					'center' => array(
-						'title' => esc_html__( 'Center', 'jet-woo-widgets' ),
-						'icon'  => 'fa fa-align-center',
-					),
-					'right'  => array(
-						'title' => esc_html__( 'Right', 'jet-woo-widgets' ),
-						'icon'  => 'fa fa-align-right',
-					),
-				),
-				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'text-align: {{VALUE}};',
-				),
-				'separator' => 'before'
-			)
-		);
-
-		$this->add_responsive_control(
 			'title_order',
 			array(
 				'type'      => Controls_Manager::NUMBER,
@@ -684,6 +657,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'name'     => 'cats_typography',
 				'scheme'   => Scheme_Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} ' . $css_scheme['cats'],
+				'exclude' => array( 'text_decoration' ),
 			)
 		);
 

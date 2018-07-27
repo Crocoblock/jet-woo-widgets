@@ -604,6 +604,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'name'     => 'tags_typography',
 				'scheme'   => Scheme_Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} ' . $css_scheme['tags'],
+				'exclude' => array( 'text_decoration' ),
 			)
 		);
 
@@ -750,6 +751,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'name'     => 'cats_typography',
 				'scheme'   => Scheme_Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} ' . $css_scheme['categories'],
+				'exclude' => array( 'text_decoration' ),
 			)
 		);
 
