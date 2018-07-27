@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'jetwoowidgets';
+  src:  url('../fonts/jetwoowidgets.eot?n7pshk');
+  src:  url('../fonts/jetwoowidgets.eot?n7pshk#iefix') format('embedded-opentype'),
+    url('../fonts/jetwoowidgets.ttf?n7pshk') format('truetype'),
+    url('../fonts/jetwoowidgets.woff?n7pshk') format('woff'),
+    url('../fonts/jetwoowidgets.svg?n7pshk#jetwoowidgets') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jetwoowidgets-icon-"], [class*=" jetwoowidgets-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jetwoowidgets' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  height: 38px;
+  display: block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="jetwoowidgets-icon-"]:before, [class*=" jetwoowidgets-icon-"]:before {
+  font-size: 49px;
+  display: block;
+  margin-top: 0px;
+}
+
+.jetwoowidgets-icon-51:before {
+  content: "\e932";
+}
+.jetwoowidgets-icon-52:before {
+  content: "\e933";
+}
+.jetwoowidgets-icon-53:before {
+  content: "\e934";
+}
+.jetwoowidgets-icon-54:before {
+  content: "\e935";
+}
+.jetwoowidgets-icon-55:before {
+  content: "\e936";
+}
+.jetwoowidgets-icon-56:before {
+  content: "\e937";
+}
+.jetwoowidgets-icon-57:before {
+  content: "\e938";
+}
+.jetwoowidgets-icon-58:before {
+  content: "\e939";
+}
+.jetwoowidgets-icon-59:before {
+  content: "\e93a";
+}
+.jetwoowidgets-icon-60:before {
+  content: "\e93b";
+}
+.jetwoowidgets-icon-61:before {
+  content: "\e93c";
+}
+.jetwoowidgets-icon-62:before {
+  content: "\e93d";
+}
+.jetwoowidgets-icon-63:before {
+  content: "\e93e";
+}
+.jetwoowidgets-icon-64:before {
+  content: "\e93f";
+}
+.jetwoowidgets-icon-65:before {
+  content: "\e940";
+}
+.jetwoowidgets-icon-88:before {
+  content: "\e954";
+}
+.jetwoowidgets-icon-89:before {
+  content: "\e955";
+}
+.jetwoowidgets-icon-91:before {
+  content: "\e957";
+}
+.jetwoowidgets-icon-92:before {
+  content: "\e958";
+}

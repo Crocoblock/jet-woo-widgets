@@ -1,0 +1,2060 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jet WooWidgets for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-27 13:13+0300\n"
+"PO-Revision-Date: 2018-05-18 18:31+0200\n"
+"Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
+"Language-Team: JetImpex\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;__;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: includes/class-jet-woo-widgets-tools.php:96
+msgid "Full"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:147
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:209
+#: includes/widgets/global/jet-woo-widgets-products-list.php:849
+#: includes/widgets/global/jet-woo-widgets-products-list.php:926
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1441
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1669
+#: includes/widgets/global/jet-woo-widgets-products.php:956
+#: includes/widgets/global/jet-woo-widgets-products.php:1033
+#: includes/widgets/global/jet-woo-widgets-products.php:1672
+#: includes/widgets/global/jet-woo-widgets-products.php:1901
+msgid "None"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:148
+msgid "ID"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:149
+msgid "Author"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:150
+#: includes/widgets/global/jet-woo-widgets-categories.php:346
+#: includes/widgets/global/jet-woo-widgets-categories.php:515
+#: includes/widgets/global/jet-woo-widgets-products-list.php:134
+#: includes/widgets/global/jet-woo-widgets-products.php:323
+msgid "Title"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:151
+msgid "Name (slug)"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:152
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:90
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:132
+msgid "Date"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:153
+msgid "Modified"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:154
+msgid "Rand"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:155
+msgid "Comment Count"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:156
+msgid "Menu Order"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:168
+msgid "Descending"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:169
+msgid "Ascending"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:181
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1050
+#: includes/widgets/global/jet-woo-widgets-products.php:1187
+msgid "Baseline"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:182
+#: includes/widgets/global/jet-woo-widgets-categories.php:1538
+#: includes/widgets/global/jet-woo-widgets-categories.php:1689
+#: includes/widgets/global/jet-woo-widgets-products-list.php:229
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1051
+#: includes/widgets/global/jet-woo-widgets-products.php:1188
+#: includes/widgets/global/jet-woo-widgets-products.php:2544
+#: includes/widgets/global/jet-woo-widgets-products.php:2695
+msgid "Top"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:183
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1052
+#: includes/widgets/global/jet-woo-widgets-products.php:1189
+msgid "Middle"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:184
+#: includes/widgets/global/jet-woo-widgets-categories.php:1539
+#: includes/widgets/global/jet-woo-widgets-categories.php:1690
+#: includes/widgets/global/jet-woo-widgets-products-list.php:231
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1053
+#: includes/widgets/global/jet-woo-widgets-products.php:1190
+#: includes/widgets/global/jet-woo-widgets-products.php:2545
+#: includes/widgets/global/jet-woo-widgets-products.php:2696
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:185
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1054
+#: includes/widgets/global/jet-woo-widgets-products.php:1191
+msgid "Sub"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:186
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1055
+#: includes/widgets/global/jet-woo-widgets-products.php:1192
+msgid "Super"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:187
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1056
+#: includes/widgets/global/jet-woo-widgets-products.php:1193
+msgid "Text Top"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:188
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1057
+#: includes/widgets/global/jet-woo-widgets-products.php:1194
+msgid "Text Bottom"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:322
+#: includes/class-jet-woo-widgets-tools.php:345
+msgid "Angle"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:323
+#: includes/class-jet-woo-widgets-tools.php:346
+msgid "Chevron"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:324
+#: includes/class-jet-woo-widgets-tools.php:347
+msgid "Angle Double"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:325
+#: includes/class-jet-woo-widgets-tools.php:348
+msgid "Arrow"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:326
+#: includes/class-jet-woo-widgets-tools.php:349
+msgid "Caret"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:327
+#: includes/class-jet-woo-widgets-tools.php:350
+msgid "Long Arrow"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:328
+#: includes/class-jet-woo-widgets-tools.php:351
+msgid "Arrow Circle"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:329
+#: includes/class-jet-woo-widgets-tools.php:352
+msgid "Chevron Circle"
+msgstr ""
+
+#: includes/class-jet-woo-widgets-tools.php:330
+#: includes/class-jet-woo-widgets-tools.php:353
+msgid "Caret Square"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:27
+#: includes/widgets/global/jet-woo-widgets-categories.php:1142
+#: includes/widgets/global/jet-woo-widgets-categories.php:1307
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1266
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1495
+#: includes/widgets/global/jet-woo-widgets-products.php:1497
+#: includes/widgets/global/jet-woo-widgets-products.php:1727
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:31
+#: includes/widgets/global/jet-woo-widgets-categories.php:1146
+#: includes/widgets/global/jet-woo-widgets-categories.php:1311
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1270
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1499
+#: includes/widgets/global/jet-woo-widgets-products.php:1501
+#: includes/widgets/global/jet-woo-widgets-products.php:1731
+msgctxt "Background Control"
+msgid "Classic"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:35
+#: includes/widgets/global/jet-woo-widgets-categories.php:1150
+#: includes/widgets/global/jet-woo-widgets-categories.php:1315
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1274
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1503
+#: includes/widgets/global/jet-woo-widgets-products.php:1505
+#: includes/widgets/global/jet-woo-widgets-products.php:1735
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:44
+#: includes/widgets/global/jet-woo-widgets-categories.php:1163
+#: includes/widgets/global/jet-woo-widgets-categories.php:1328
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1287
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1516
+#: includes/widgets/global/jet-woo-widgets-products.php:1518
+#: includes/widgets/global/jet-woo-widgets-products.php:1748
+msgctxt "Background Control"
+msgid "Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:47
+#: includes/widgets/global/jet-woo-widgets-categories.php:1166
+#: includes/widgets/global/jet-woo-widgets-categories.php:1331
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1294
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1523
+#: includes/widgets/global/jet-woo-widgets-products.php:1525
+#: includes/widgets/global/jet-woo-widgets-products.php:1755
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:57
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:83
+#: includes/widgets/global/jet-woo-widgets-categories.php:1176
+#: includes/widgets/global/jet-woo-widgets-categories.php:1208
+#: includes/widgets/global/jet-woo-widgets-categories.php:1341
+#: includes/widgets/global/jet-woo-widgets-categories.php:1373
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1304
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1336
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1533
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1565
+#: includes/widgets/global/jet-woo-widgets-products.php:1535
+#: includes/widgets/global/jet-woo-widgets-products.php:1567
+#: includes/widgets/global/jet-woo-widgets-products.php:1765
+#: includes/widgets/global/jet-woo-widgets-products.php:1797
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:72
+#: includes/widgets/global/jet-woo-widgets-categories.php:1194
+#: includes/widgets/global/jet-woo-widgets-categories.php:1359
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1322
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1551
+#: includes/widgets/global/jet-woo-widgets-products.php:1553
+#: includes/widgets/global/jet-woo-widgets-products.php:1783
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:98
+#: includes/widgets/global/jet-woo-widgets-categories.php:1226
+#: includes/widgets/global/jet-woo-widgets-categories.php:1391
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1354
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1583
+#: includes/widgets/global/jet-woo-widgets-products.php:1585
+#: includes/widgets/global/jet-woo-widgets-products.php:1815
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:101
+#: includes/widgets/global/jet-woo-widgets-categories.php:1229
+#: includes/widgets/global/jet-woo-widgets-categories.php:1394
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1357
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1586
+#: includes/widgets/global/jet-woo-widgets-products.php:1588
+#: includes/widgets/global/jet-woo-widgets-products.php:1818
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:102
+#: includes/widgets/global/jet-woo-widgets-categories.php:1230
+#: includes/widgets/global/jet-woo-widgets-categories.php:1395
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1358
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1587
+#: includes/widgets/global/jet-woo-widgets-products.php:1589
+#: includes/widgets/global/jet-woo-widgets-products.php:1819
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:113
+#: includes/widgets/global/jet-woo-widgets-categories.php:1244
+#: includes/widgets/global/jet-woo-widgets-categories.php:1409
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1372
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1601
+#: includes/widgets/global/jet-woo-widgets-products.php:1603
+#: includes/widgets/global/jet-woo-widgets-products.php:1833
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:136
+#: includes/widgets/global/jet-woo-widgets-categories.php:1270
+#: includes/widgets/global/jet-woo-widgets-categories.php:1435
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1398
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1627
+#: includes/widgets/global/jet-woo-widgets-products.php:1629
+#: includes/widgets/global/jet-woo-widgets-products.php:1859
+msgctxt "Background Control"
+msgid "Position"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:139
+#: includes/widgets/global/jet-woo-widgets-categories.php:1273
+#: includes/widgets/global/jet-woo-widgets-categories.php:1438
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1401
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1630
+#: includes/widgets/global/jet-woo-widgets-products.php:1632
+#: includes/widgets/global/jet-woo-widgets-products.php:1862
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:140
+#: includes/widgets/global/jet-woo-widgets-categories.php:1274
+#: includes/widgets/global/jet-woo-widgets-categories.php:1439
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1402
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1631
+#: includes/widgets/global/jet-woo-widgets-products.php:1633
+#: includes/widgets/global/jet-woo-widgets-products.php:1863
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:141
+#: includes/widgets/global/jet-woo-widgets-categories.php:1275
+#: includes/widgets/global/jet-woo-widgets-categories.php:1440
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1403
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1632
+#: includes/widgets/global/jet-woo-widgets-products.php:1634
+#: includes/widgets/global/jet-woo-widgets-products.php:1864
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:142
+#: includes/widgets/global/jet-woo-widgets-categories.php:1276
+#: includes/widgets/global/jet-woo-widgets-categories.php:1441
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1404
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1633
+#: includes/widgets/global/jet-woo-widgets-products.php:1635
+#: includes/widgets/global/jet-woo-widgets-products.php:1865
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:143
+#: includes/widgets/global/jet-woo-widgets-categories.php:1277
+#: includes/widgets/global/jet-woo-widgets-categories.php:1442
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1405
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1634
+#: includes/widgets/global/jet-woo-widgets-products.php:1636
+#: includes/widgets/global/jet-woo-widgets-products.php:1866
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:144
+#: includes/widgets/global/jet-woo-widgets-categories.php:1278
+#: includes/widgets/global/jet-woo-widgets-categories.php:1443
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1406
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1635
+#: includes/widgets/global/jet-woo-widgets-products.php:1637
+#: includes/widgets/global/jet-woo-widgets-products.php:1867
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:145
+#: includes/widgets/global/jet-woo-widgets-categories.php:1279
+#: includes/widgets/global/jet-woo-widgets-categories.php:1444
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1407
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1636
+#: includes/widgets/global/jet-woo-widgets-products.php:1638
+#: includes/widgets/global/jet-woo-widgets-products.php:1868
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:146
+#: includes/widgets/global/jet-woo-widgets-categories.php:1280
+#: includes/widgets/global/jet-woo-widgets-categories.php:1445
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1408
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1637
+#: includes/widgets/global/jet-woo-widgets-products.php:1639
+#: includes/widgets/global/jet-woo-widgets-products.php:1869
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:147
+#: includes/widgets/global/jet-woo-widgets-categories.php:1281
+#: includes/widgets/global/jet-woo-widgets-categories.php:1446
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1409
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1638
+#: includes/widgets/global/jet-woo-widgets-products.php:1640
+#: includes/widgets/global/jet-woo-widgets-products.php:1870
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:161
+msgid "Font Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:169
+msgid "Font Size"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:188
+msgid "Box Size"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:206
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:210
+msgctxt "Border Control"
+msgid "Solid"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:211
+msgctxt "Border Control"
+msgid "Double"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:212
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:213
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:221
+msgctxt "Border Control"
+msgid "Width"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:232
+msgctxt "Border Control"
+msgid "Color"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:244
+#: includes/widgets/global/jet-woo-widgets-categories.php:478
+#: includes/widgets/global/jet-woo-widgets-categories.php:644
+#: includes/widgets/global/jet-woo-widgets-categories.php:731
+#: includes/widgets/global/jet-woo-widgets-categories.php:970
+#: includes/widgets/global/jet-woo-widgets-products-list.php:311
+#: includes/widgets/global/jet-woo-widgets-products-list.php:438
+#: includes/widgets/global/jet-woo-widgets-products-list.php:497
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1466
+#: includes/widgets/global/jet-woo-widgets-products.php:519
+#: includes/widgets/global/jet-woo-widgets-products.php:1363
+#: includes/widgets/global/jet-woo-widgets-products.php:1698
+#: includes/widgets/global/jet-woo-widgets-products.php:2290
+msgid "Border Radius"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:253
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:263
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:255
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:55
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:63
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:71
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:88
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:96
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:107
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:170
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:178
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:100
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:118
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:135
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:143
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:151
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:159
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:168
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:55
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:63
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:71
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:142
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:166
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:182
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:202
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:210
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:218
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:226
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:234
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:243
+#: includes/widgets/global/jet-woo-widgets-categories.php:107
+#: includes/widgets/global/jet-woo-widgets-categories.php:146
+#: includes/widgets/global/jet-woo-widgets-categories.php:184
+#: includes/widgets/global/jet-woo-widgets-categories.php:196
+#: includes/widgets/global/jet-woo-widgets-categories.php:208
+#: includes/widgets/global/jet-woo-widgets-categories.php:232
+#: includes/widgets/global/jet-woo-widgets-products.php:110
+#: includes/widgets/global/jet-woo-widgets-products.php:149
+#: includes/widgets/global/jet-woo-widgets-products.php:187
+#: includes/widgets/global/jet-woo-widgets-products.php:199
+#: includes/widgets/global/jet-woo-widgets-products.php:211
+#: includes/widgets/global/jet-woo-widgets-products.php:235
+msgid "Yes"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:256
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:56
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:64
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:72
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:89
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:97
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:108
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:171
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:179
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:101
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:119
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:136
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:144
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:152
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:160
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:169
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:56
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:64
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:72
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:143
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:167
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:183
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:203
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:211
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:219
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:227
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:235
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:244
+#: includes/widgets/global/jet-woo-widgets-categories.php:108
+#: includes/widgets/global/jet-woo-widgets-categories.php:147
+#: includes/widgets/global/jet-woo-widgets-categories.php:185
+#: includes/widgets/global/jet-woo-widgets-categories.php:197
+#: includes/widgets/global/jet-woo-widgets-categories.php:209
+#: includes/widgets/global/jet-woo-widgets-categories.php:233
+#: includes/widgets/global/jet-woo-widgets-products.php:111
+#: includes/widgets/global/jet-woo-widgets-products.php:150
+#: includes/widgets/global/jet-woo-widgets-products.php:188
+#: includes/widgets/global/jet-woo-widgets-products.php:200
+#: includes/widgets/global/jet-woo-widgets-products.php:212
+#: includes/widgets/global/jet-woo-widgets-products.php:236
+msgid "No"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:274
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:277
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr ""
+
+#: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:278
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr ""
+
+#: includes/integrations/base/class-jet-woo-widgets-integration.php:193
+msgid "Jet Woo Widgets"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:393
+#: includes/lib/class-tgm-plugin-activation.php:920
+#: includes/lib/class-tgm-plugin-activation.php:2626
+#: includes/lib/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:394
+#: includes/lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:395
+#: includes/lib/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1027
+#: includes/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2414
+#: includes/widgets/global/jet-woo-widgets-categories.php:1883
+#: includes/widgets/global/jet-woo-widgets-products.php:2889
+msgid "Active"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3602
+#: includes/lib/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3602
+#: includes/lib/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:108
+msgid "Settings saved"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:191
+#: includes/settings/class-jet-woo-widgets-settings.php:192
+#: includes/settings/class-jet-woo-widgets-settings.php:216
+msgid "Jet Woo Widgets Settings"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:260
+msgid "Available Widgets"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:274
+msgid "Global Available Widgets"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:275
+msgid "List of widgets that will be available when editing the page"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:285
+msgid "Product Thumb Effect"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:297
+msgid "Enable Thumbnails Effect"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:298
+msgid "Enable thumbnails switch on hover"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:317
+msgid "Slide Left"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:318
+msgid "Slide Right"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:319
+msgid "Slide Top"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:320
+msgid "Slide Bottom"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:321
+#: includes/widgets/global/jet-woo-widgets-categories.php:247
+#: includes/widgets/global/jet-woo-widgets-products.php:250
+msgid "Fade"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:322
+msgid "Fade With Zoom"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:324
+msgid "Thumbnails Effect:"
+msgstr ""
+
+#: includes/settings/class-jet-woo-widgets-settings.php:335
+msgid "Save"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:29
+msgid "Category Presets"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:32
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:32
+msgid "Preset 1"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:33
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:33
+msgid "Preset 2"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:34
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:34
+msgid "Preset 3"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:35
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:35
+msgid "Preset 4"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:36
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:36
+msgid "Preset 5"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:42
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:42
+msgid "Columns"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:53
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:53
+msgid "Equal Columns Height"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:62
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:62
+msgid "Add gap between columns"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:70
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:70
+msgid "Add gap between rows"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:78
+msgid "Categories Number"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:87
+msgid "Hide Empty"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:95
+msgid "Hide Subcategories"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:106
+msgid "Hide Uncategorized"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:117
+msgid "Show by"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:120
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:48
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:90
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1153
+#: includes/widgets/global/jet-woo-widgets-products.php:2351
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:121
+msgid "Parent Category"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:122
+msgid "Categories IDs"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:127
+msgid "Set parent category ID"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:135
+msgid "Set comma seprated IDs list (10, 22, 19 etc.)"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:143
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:87
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:129
+msgid "Order by"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:146
+msgid "ASC"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:147
+msgid "DESC"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:152
+msgid "Sort by"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:155
+msgid "Name"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:156
+msgid "IDs"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:157
+#: includes/widgets/global/jet-woo-widgets-categories.php:359
+#: includes/widgets/global/jet-woo-widgets-categories.php:563
+msgid "Count"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:162
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:125
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:159
+msgid "Featured Image Size"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:169
+msgid "Show Categories Title"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:177
+msgid "Show Products Count"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:185
+msgid "Count Before Text"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:193
+msgid "Count After Text"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:201
+msgid "Description Words Count"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:202
+msgid "Input -1 to show all description and 0 to hide"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:208
+msgid "Trimmed After Text"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:283
+msgid "Categories not found"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:27
+msgid "Layout"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:30
+msgid "Image Left"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:31
+msgid "Image Right"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:32
+msgid "Image Top"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:37
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:78
+msgid "Products Number"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:45
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:87
+msgid "Query products by"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:49
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:91
+msgid "Featured"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:50
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:92
+#: includes/widgets/global/jet-woo-widgets-products-list.php:904
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1108
+#: includes/widgets/global/jet-woo-widgets-products.php:1011
+#: includes/widgets/global/jet-woo-widgets-products.php:1245
+msgid "Sale"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:51
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:77
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:93
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:119
+msgid "Tag"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:52
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:67
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:94
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:109
+msgid "Category"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:53
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:95
+msgid "Specific IDs"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:54
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:96
+msgid "Recently Viewed"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:59
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:101
+msgid "Set comma separated IDs list (10, 22, 19 etc.)"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:91
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:133
+#: includes/widgets/global/jet-woo-widgets-products-list.php:160
+#: includes/widgets/global/jet-woo-widgets-products.php:362
+msgid "Price"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:92
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:134
+msgid "Random"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:93
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:135
+msgid "Sales"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:94
+msgid "Top Rated"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:99
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:141
+msgid "Show Products Title"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:108
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:150
+msgid "Title Words Count"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:117
+msgid "Show Products Featured Image"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:134
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:201
+msgid "Show Product Categories"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:142
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:217
+msgid "Show Product Price"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:150
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:225
+msgid "Show Product Rating"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:158
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:233
+msgid "Show Add To Cart Button"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:165
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:240
+msgid "Use default ajax add to cart styles"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:166
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:241
+msgid ""
+"This option enables default WooCommerce styles for 'Add to Cart' ajax button "
+"('Loading' and 'Added' statements)"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:326
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:411
+msgid "Products not found"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:29
+msgid "Product Presets"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:136
+msgid "Top rated"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:165
+msgid "Show Badges"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:173
+msgid "Set sale badge text"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:174
+msgid "Sale!"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:181
+msgid "Show Product Excerpt"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:192
+msgid "Excerpt Words Count"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-products-shortcode.php:209
+msgid "Show Product Tags"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:31
+msgid "Woo Categories Grid"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:55
+#: includes/widgets/global/jet-woo-widgets-products-list.php:51
+#: includes/widgets/global/jet-woo-widgets-products.php:54
+msgid "General"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:98
+#: includes/widgets/global/jet-woo-widgets-products.php:101
+msgid "Carousel"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:105
+#: includes/widgets/global/jet-woo-widgets-products.php:108
+msgid "Enable Carousel"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:117
+#: includes/widgets/global/jet-woo-widgets-products.php:120
+msgid "Slides Minimal Height"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:131
+#: includes/widgets/global/jet-woo-widgets-products.php:134
+msgid "Slides to Scroll"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:144
+#: includes/widgets/global/jet-woo-widgets-products.php:147
+msgid "Show Arrows Navigation"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:156
+#: includes/widgets/global/jet-woo-widgets-products.php:159
+msgid "Prev Arrow Icon"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:169
+#: includes/widgets/global/jet-woo-widgets-products.php:172
+msgid "Next Arrow Icon"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:182
+#: includes/widgets/global/jet-woo-widgets-products.php:185
+msgid "Show Dots Navigation"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:194
+#: includes/widgets/global/jet-woo-widgets-products.php:197
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:206
+#: includes/widgets/global/jet-woo-widgets-products.php:209
+msgid "Autoplay"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:218
+#: includes/widgets/global/jet-woo-widgets-products.php:221
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:230
+#: includes/widgets/global/jet-woo-widgets-products.php:233
+msgid "Infinite Loop"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:242
+#: includes/widgets/global/jet-woo-widgets-products.php:245
+msgid "Effect"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:246
+#: includes/widgets/global/jet-woo-widgets-products.php:249
+msgid "Slide"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:258
+#: includes/widgets/global/jet-woo-widgets-products.php:261
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:269
+#: includes/widgets/global/jet-woo-widgets-products.php:272
+msgid "Column"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:278
+#: includes/widgets/global/jet-woo-widgets-products.php:281
+msgid "Column Padding"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:294
+msgid "Category Item"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:307
+msgid "Category Item (hover)"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:320
+msgid "Category Thumbnail"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:333
+#: includes/widgets/global/jet-woo-widgets-categories.php:598
+#: includes/widgets/global/jet-woo-widgets-products-list.php:121
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:372
+#: includes/widgets/global/jet-woo-widgets-categories.php:539
+#: includes/widgets/global/jet-woo-widgets-products.php:336
+msgid "Excerpt"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:385
+#: includes/widgets/global/jet-woo-widgets-products.php:427
+msgid "Overlay"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:398
+#: includes/widgets/global/jet-woo-widgets-products.php:440
+msgid "Carousel Arrows"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:414
+#: includes/widgets/global/jet-woo-widgets-products.php:456
+msgid "Carousel Dots"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:455
+#: includes/widgets/global/jet-woo-widgets-categories.php:572
+#: includes/widgets/global/jet-woo-widgets-categories.php:607
+#: includes/widgets/global/jet-woo-widgets-categories.php:622
+#: includes/widgets/global/jet-woo-widgets-categories.php:693
+#: includes/widgets/global/jet-woo-widgets-categories.php:789
+#: includes/widgets/global/jet-woo-widgets-categories.php:917
+#: includes/widgets/global/jet-woo-widgets-categories.php:1056
+#: includes/widgets/global/jet-woo-widgets-products-list.php:288
+#: includes/widgets/global/jet-woo-widgets-products-list.php:407
+#: includes/widgets/global/jet-woo-widgets-products-list.php:467
+#: includes/widgets/global/jet-woo-widgets-products.php:497
+#: includes/widgets/global/jet-woo-widgets-products.php:565
+#: includes/widgets/global/jet-woo-widgets-products.php:585
+#: includes/widgets/global/jet-woo-widgets-products.php:613
+#: includes/widgets/global/jet-woo-widgets-products.php:759
+#: includes/widgets/global/jet-woo-widgets-products.php:2020
+#: includes/widgets/global/jet-woo-widgets-products.php:2124
+#: includes/widgets/global/jet-woo-widgets-products.php:2260
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:467
+#: includes/widgets/global/jet-woo-widgets-categories.php:634
+#: includes/widgets/global/jet-woo-widgets-categories.php:705
+#: includes/widgets/global/jet-woo-widgets-categories.php:944
+#: includes/widgets/global/jet-woo-widgets-products-list.php:301
+#: includes/widgets/global/jet-woo-widgets-products-list.php:420
+#: includes/widgets/global/jet-woo-widgets-products-list.php:479
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1456
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1683
+#: includes/widgets/global/jet-woo-widgets-products.php:509
+#: includes/widgets/global/jet-woo-widgets-products.php:1352
+#: includes/widgets/global/jet-woo-widgets-products.php:1687
+#: includes/widgets/global/jet-woo-widgets-products.php:1916
+#: includes/widgets/global/jet-woo-widgets-products.php:2272
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:498
+#: includes/widgets/global/jet-woo-widgets-categories.php:677
+#: includes/widgets/global/jet-woo-widgets-categories.php:764
+#: includes/widgets/global/jet-woo-widgets-categories.php:880
+#: includes/widgets/global/jet-woo-widgets-categories.php:1020
+#: includes/widgets/global/jet-woo-widgets-categories.php:1105
+#: includes/widgets/global/jet-woo-widgets-products-list.php:331
+#: includes/widgets/global/jet-woo-widgets-products-list.php:450
+#: includes/widgets/global/jet-woo-widgets-products-list.php:509
+#: includes/widgets/global/jet-woo-widgets-products-list.php:614
+#: includes/widgets/global/jet-woo-widgets-products-list.php:746
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1705
+#: includes/widgets/global/jet-woo-widgets-products.php:539
+#: includes/widgets/global/jet-woo-widgets-products.php:704
+#: includes/widgets/global/jet-woo-widgets-products.php:850
+#: includes/widgets/global/jet-woo-widgets-products.php:1436
+#: includes/widgets/global/jet-woo-widgets-products.php:1965
+#: includes/widgets/global/jet-woo-widgets-products.php:2069
+#: includes/widgets/global/jet-woo-widgets-products.php:2214
+#: includes/widgets/global/jet-woo-widgets-products.php:2315
+msgid "Padding"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:524
+#: includes/widgets/global/jet-woo-widgets-categories.php:548
+#: includes/widgets/global/jet-woo-widgets-categories.php:583
+#: includes/widgets/global/jet-woo-widgets-categories.php:809
+#: includes/widgets/global/jet-woo-widgets-categories.php:833
+#: includes/widgets/global/jet-woo-widgets-categories.php:928
+#: includes/widgets/global/jet-woo-widgets-categories.php:1067
+#: includes/widgets/global/jet-woo-widgets-products-list.php:571
+#: includes/widgets/global/jet-woo-widgets-products-list.php:595
+#: includes/widgets/global/jet-woo-widgets-products-list.php:702
+#: includes/widgets/global/jet-woo-widgets-products-list.php:727
+#: includes/widgets/global/jet-woo-widgets-products-list.php:797
+#: includes/widgets/global/jet-woo-widgets-products-list.php:834
+#: includes/widgets/global/jet-woo-widgets-products-list.php:911
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1019
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1078
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1115
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1160
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1181
+#: includes/widgets/global/jet-woo-widgets-products.php:633
+#: includes/widgets/global/jet-woo-widgets-products.php:658
+#: includes/widgets/global/jet-woo-widgets-products.php:779
+#: includes/widgets/global/jet-woo-widgets-products.php:804
+#: includes/widgets/global/jet-woo-widgets-products.php:904
+#: includes/widgets/global/jet-woo-widgets-products.php:941
+#: includes/widgets/global/jet-woo-widgets-products.php:1018
+#: includes/widgets/global/jet-woo-widgets-products.php:1156
+#: includes/widgets/global/jet-woo-widgets-products.php:1215
+#: includes/widgets/global/jet-woo-widgets-products.php:1252
+#: includes/widgets/global/jet-woo-widgets-products.php:2031
+#: includes/widgets/global/jet-woo-widgets-products.php:2144
+#: includes/widgets/global/jet-woo-widgets-products.php:2168
+#: includes/widgets/global/jet-woo-widgets-products.php:2358
+#: includes/widgets/global/jet-woo-widgets-products.php:2379
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:664
+#: includes/widgets/global/jet-woo-widgets-categories.php:751
+#: includes/widgets/global/jet-woo-widgets-categories.php:892
+#: includes/widgets/global/jet-woo-widgets-categories.php:1032
+#: includes/widgets/global/jet-woo-widgets-categories.php:1117
+#: includes/widgets/global/jet-woo-widgets-products-list.php:626
+#: includes/widgets/global/jet-woo-widgets-products-list.php:758
+#: includes/widgets/global/jet-woo-widgets-products-list.php:983
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1218
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1717
+#: includes/widgets/global/jet-woo-widgets-products.php:716
+#: includes/widgets/global/jet-woo-widgets-products.php:862
+#: includes/widgets/global/jet-woo-widgets-products.php:1117
+#: includes/widgets/global/jet-woo-widgets-products.php:1448
+#: includes/widgets/global/jet-woo-widgets-products.php:1977
+#: includes/widgets/global/jet-woo-widgets-products.php:2081
+#: includes/widgets/global/jet-woo-widgets-products.php:2226
+#: includes/widgets/global/jet-woo-widgets-products.php:2302
+#: includes/widgets/global/jet-woo-widgets-products.php:2416
+msgid "Margin"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:716
+#: includes/widgets/global/jet-woo-widgets-categories.php:955
+msgid "Hover Border Color"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:802
+#: includes/widgets/global/jet-woo-widgets-categories.php:1135
+#: includes/widgets/global/jet-woo-widgets-categories.php:1473
+#: includes/widgets/global/jet-woo-widgets-categories.php:1833
+#: includes/widgets/global/jet-woo-widgets-products-list.php:564
+#: includes/widgets/global/jet-woo-widgets-products-list.php:695
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1259
+#: includes/widgets/global/jet-woo-widgets-products.php:558
+#: includes/widgets/global/jet-woo-widgets-products.php:626
+#: includes/widgets/global/jet-woo-widgets-products.php:772
+#: includes/widgets/global/jet-woo-widgets-products.php:1490
+#: includes/widgets/global/jet-woo-widgets-products.php:2137
+#: includes/widgets/global/jet-woo-widgets-products.php:2479
+#: includes/widgets/global/jet-woo-widgets-products.php:2839
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:826
+#: includes/widgets/global/jet-woo-widgets-categories.php:1300
+#: includes/widgets/global/jet-woo-widgets-categories.php:1498
+#: includes/widgets/global/jet-woo-widgets-categories.php:1858
+#: includes/widgets/global/jet-woo-widgets-products-list.php:588
+#: includes/widgets/global/jet-woo-widgets-products-list.php:720
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1488
+#: includes/widgets/global/jet-woo-widgets-products.php:578
+#: includes/widgets/global/jet-woo-widgets-products.php:651
+#: includes/widgets/global/jet-woo-widgets-products.php:797
+#: includes/widgets/global/jet-woo-widgets-products.php:1720
+#: includes/widgets/global/jet-woo-widgets-products.php:2161
+#: includes/widgets/global/jet-woo-widgets-products.php:2504
+#: includes/widgets/global/jet-woo-widgets-products.php:2864
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:852
+#: includes/widgets/global/jet-woo-widgets-categories.php:990
+#: includes/widgets/global/jet-woo-widgets-categories.php:1078
+#: includes/widgets/global/jet-woo-widgets-categories.php:1944
+#: includes/widgets/global/jet-woo-widgets-products-list.php:522
+#: includes/widgets/global/jet-woo-widgets-products-list.php:638
+#: includes/widgets/global/jet-woo-widgets-products.php:677
+#: includes/widgets/global/jet-woo-widgets-products.php:823
+#: includes/widgets/global/jet-woo-widgets-products.php:1090
+#: includes/widgets/global/jet-woo-widgets-products.php:1409
+#: includes/widgets/global/jet-woo-widgets-products.php:1938
+#: includes/widgets/global/jet-woo-widgets-products.php:2042
+#: includes/widgets/global/jet-woo-widgets-products.php:2187
+#: includes/widgets/global/jet-woo-widgets-products.php:2429
+#: includes/widgets/global/jet-woo-widgets-products.php:2950
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:857
+#: includes/widgets/global/jet-woo-widgets-categories.php:995
+#: includes/widgets/global/jet-woo-widgets-categories.php:1083
+#: includes/widgets/global/jet-woo-widgets-categories.php:1609
+#: includes/widgets/global/jet-woo-widgets-categories.php:1760
+#: includes/widgets/global/jet-woo-widgets-categories.php:1949
+#: includes/widgets/global/jet-woo-widgets-products-list.php:250
+#: includes/widgets/global/jet-woo-widgets-products-list.php:527
+#: includes/widgets/global/jet-woo-widgets-products-list.php:643
+#: includes/widgets/global/jet-woo-widgets-products.php:682
+#: includes/widgets/global/jet-woo-widgets-products.php:828
+#: includes/widgets/global/jet-woo-widgets-products.php:1095
+#: includes/widgets/global/jet-woo-widgets-products.php:1414
+#: includes/widgets/global/jet-woo-widgets-products.php:1943
+#: includes/widgets/global/jet-woo-widgets-products.php:2047
+#: includes/widgets/global/jet-woo-widgets-products.php:2192
+#: includes/widgets/global/jet-woo-widgets-products.php:2434
+#: includes/widgets/global/jet-woo-widgets-products.php:2615
+#: includes/widgets/global/jet-woo-widgets-products.php:2766
+#: includes/widgets/global/jet-woo-widgets-products.php:2955
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:861
+#: includes/widgets/global/jet-woo-widgets-categories.php:999
+#: includes/widgets/global/jet-woo-widgets-categories.php:1087
+#: includes/widgets/global/jet-woo-widgets-categories.php:1953
+#: includes/widgets/global/jet-woo-widgets-products-list.php:230
+#: includes/widgets/global/jet-woo-widgets-products-list.php:251
+#: includes/widgets/global/jet-woo-widgets-products-list.php:531
+#: includes/widgets/global/jet-woo-widgets-products-list.php:647
+#: includes/widgets/global/jet-woo-widgets-products.php:686
+#: includes/widgets/global/jet-woo-widgets-products.php:832
+#: includes/widgets/global/jet-woo-widgets-products.php:1099
+#: includes/widgets/global/jet-woo-widgets-products.php:1418
+#: includes/widgets/global/jet-woo-widgets-products.php:1947
+#: includes/widgets/global/jet-woo-widgets-products.php:2051
+#: includes/widgets/global/jet-woo-widgets-products.php:2196
+#: includes/widgets/global/jet-woo-widgets-products.php:2438
+#: includes/widgets/global/jet-woo-widgets-products.php:2959
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:865
+#: includes/widgets/global/jet-woo-widgets-categories.php:1003
+#: includes/widgets/global/jet-woo-widgets-categories.php:1091
+#: includes/widgets/global/jet-woo-widgets-categories.php:1610
+#: includes/widgets/global/jet-woo-widgets-categories.php:1761
+#: includes/widgets/global/jet-woo-widgets-categories.php:1957
+#: includes/widgets/global/jet-woo-widgets-products-list.php:252
+#: includes/widgets/global/jet-woo-widgets-products-list.php:535
+#: includes/widgets/global/jet-woo-widgets-products-list.php:651
+#: includes/widgets/global/jet-woo-widgets-products.php:690
+#: includes/widgets/global/jet-woo-widgets-products.php:836
+#: includes/widgets/global/jet-woo-widgets-products.php:1103
+#: includes/widgets/global/jet-woo-widgets-products.php:1422
+#: includes/widgets/global/jet-woo-widgets-products.php:1951
+#: includes/widgets/global/jet-woo-widgets-products.php:2055
+#: includes/widgets/global/jet-woo-widgets-products.php:2200
+#: includes/widgets/global/jet-woo-widgets-products.php:2442
+#: includes/widgets/global/jet-woo-widgets-products.php:2616
+#: includes/widgets/global/jet-woo-widgets-products.php:2767
+#: includes/widgets/global/jet-woo-widgets-products.php:2963
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1525
+#: includes/widgets/global/jet-woo-widgets-products.php:2531
+msgid "Prev Arrow Position"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1534
+#: includes/widgets/global/jet-woo-widgets-products.php:2540
+msgid "Vertical Postition by"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1547
+#: includes/widgets/global/jet-woo-widgets-categories.php:1698
+#: includes/widgets/global/jet-woo-widgets-products.php:2553
+#: includes/widgets/global/jet-woo-widgets-products.php:2704
+msgid "Top Indent"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1576
+#: includes/widgets/global/jet-woo-widgets-categories.php:1727
+#: includes/widgets/global/jet-woo-widgets-products.php:2582
+#: includes/widgets/global/jet-woo-widgets-products.php:2733
+msgid "Bottom Indent"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1605
+#: includes/widgets/global/jet-woo-widgets-products.php:2611
+msgid "Horizontal Position by"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1618
+#: includes/widgets/global/jet-woo-widgets-categories.php:1769
+#: includes/widgets/global/jet-woo-widgets-products.php:2624
+#: includes/widgets/global/jet-woo-widgets-products.php:2775
+msgid "Left Indent"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1647
+#: includes/widgets/global/jet-woo-widgets-categories.php:1798
+#: includes/widgets/global/jet-woo-widgets-products.php:2653
+#: includes/widgets/global/jet-woo-widgets-products.php:2804
+msgid "Right Indent"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1676
+#: includes/widgets/global/jet-woo-widgets-products.php:2682
+msgid "Next Arrow Position"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1685
+#: includes/widgets/global/jet-woo-widgets-products.php:2691
+msgid "Vertical Position by"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1756
+#: includes/widgets/global/jet-woo-widgets-products.php:2762
+msgid "Horizontal Postition by"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1910
+#: includes/widgets/global/jet-woo-widgets-products.php:2916
+msgid "Gap"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-categories.php:1932
+#: includes/widgets/global/jet-woo-widgets-products.php:2938
+msgid "Dots Box Margin"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:31
+msgid "Woo Products List"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:95
+#: includes/widgets/global/jet-woo-widgets-products.php:297
+msgid "Product Item"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:108
+#: includes/widgets/global/jet-woo-widgets-products.php:310
+msgid "Product Thumbnail"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:147
+#: includes/widgets/global/jet-woo-widgets-products.php:388
+msgid "Categories"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:173
+#: includes/widgets/global/jet-woo-widgets-products.php:375
+msgid "Rating"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:186
+#: includes/widgets/global/jet-woo-widgets-products.php:349
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:225
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1047
+#: includes/widgets/global/jet-woo-widgets-products.php:1184
+msgid "Vertical Alignment"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:232
+msgid "Stretch"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:246
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:266
+msgid "Space Between Items"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:348
+#: includes/widgets/global/jet-woo-widgets-products-list.php:378
+msgid "Image Width"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:666
+#: includes/widgets/global/jet-woo-widgets-products-list.php:771
+#: includes/widgets/global/jet-woo-widgets-products-list.php:996
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1231
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1730
+#: includes/widgets/global/jet-woo-widgets-products.php:729
+#: includes/widgets/global/jet-woo-widgets-products.php:875
+#: includes/widgets/global/jet-woo-widgets-products.php:1130
+#: includes/widgets/global/jet-woo-widgets-products.php:1990
+#: includes/widgets/global/jet-woo-widgets-products.php:2094
+#: includes/widgets/global/jet-woo-widgets-products.php:2239
+#: includes/widgets/global/jet-woo-widgets-products.php:2328
+#: includes/widgets/global/jet-woo-widgets-products.php:2456
+msgid "Order"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:808
+#: includes/widgets/global/jet-woo-widgets-products.php:915
+msgid "Space Between Prices"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:827
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1071
+#: includes/widgets/global/jet-woo-widgets-products.php:934
+#: includes/widgets/global/jet-woo-widgets-products.php:1208
+msgid "Regular"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:845
+#: includes/widgets/global/jet-woo-widgets-products-list.php:922
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1438
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1666
+#: includes/widgets/global/jet-woo-widgets-products.php:952
+#: includes/widgets/global/jet-woo-widgets-products.php:1029
+#: includes/widgets/global/jet-woo-widgets-products.php:1669
+#: includes/widgets/global/jet-woo-widgets-products.php:1898
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:850
+#: includes/widgets/global/jet-woo-widgets-products-list.php:927
+#: includes/widgets/global/jet-woo-widgets-products.php:957
+#: includes/widgets/global/jet-woo-widgets-products.php:1034
+msgid "Line Through"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:851
+#: includes/widgets/global/jet-woo-widgets-products-list.php:928
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1442
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1670
+#: includes/widgets/global/jet-woo-widgets-products.php:958
+#: includes/widgets/global/jet-woo-widgets-products.php:1035
+#: includes/widgets/global/jet-woo-widgets-products.php:1673
+#: includes/widgets/global/jet-woo-widgets-products.php:1902
+msgid "Underline"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:862
+#: includes/widgets/global/jet-woo-widgets-products-list.php:939
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1030
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1089
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1126
+#: includes/widgets/global/jet-woo-widgets-products.php:969
+#: includes/widgets/global/jet-woo-widgets-products.php:1046
+#: includes/widgets/global/jet-woo-widgets-products.php:1167
+#: includes/widgets/global/jet-woo-widgets-products.php:1226
+#: includes/widgets/global/jet-woo-widgets-products.php:1263
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:879
+#: includes/widgets/global/jet-woo-widgets-products-list.php:956
+#: includes/widgets/global/jet-woo-widgets-products.php:986
+#: includes/widgets/global/jet-woo-widgets-products.php:1063
+msgid "Font Weight"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:883
+#: includes/widgets/global/jet-woo-widgets-products-list.php:960
+#: includes/widgets/global/jet-woo-widgets-products.php:990
+#: includes/widgets/global/jet-woo-widgets-products.php:1067
+msgid "100"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:884
+#: includes/widgets/global/jet-woo-widgets-products-list.php:961
+#: includes/widgets/global/jet-woo-widgets-products.php:991
+#: includes/widgets/global/jet-woo-widgets-products.php:1068
+msgid "200"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:885
+#: includes/widgets/global/jet-woo-widgets-products-list.php:962
+#: includes/widgets/global/jet-woo-widgets-products.php:992
+#: includes/widgets/global/jet-woo-widgets-products.php:1069
+msgid "300"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:886
+#: includes/widgets/global/jet-woo-widgets-products-list.php:963
+#: includes/widgets/global/jet-woo-widgets-products.php:993
+#: includes/widgets/global/jet-woo-widgets-products.php:1070
+msgid "400"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:887
+#: includes/widgets/global/jet-woo-widgets-products-list.php:964
+#: includes/widgets/global/jet-woo-widgets-products.php:994
+#: includes/widgets/global/jet-woo-widgets-products.php:1071
+msgid "500"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:888
+#: includes/widgets/global/jet-woo-widgets-products-list.php:965
+#: includes/widgets/global/jet-woo-widgets-products.php:995
+#: includes/widgets/global/jet-woo-widgets-products.php:1072
+msgid "600"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:889
+#: includes/widgets/global/jet-woo-widgets-products-list.php:966
+#: includes/widgets/global/jet-woo-widgets-products.php:996
+#: includes/widgets/global/jet-woo-widgets-products.php:1073
+msgid "700"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:890
+#: includes/widgets/global/jet-woo-widgets-products-list.php:967
+#: includes/widgets/global/jet-woo-widgets-products.php:997
+#: includes/widgets/global/jet-woo-widgets-products.php:1074
+msgid "800"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:891
+#: includes/widgets/global/jet-woo-widgets-products-list.php:968
+#: includes/widgets/global/jet-woo-widgets-products.php:998
+#: includes/widgets/global/jet-woo-widgets-products.php:1075
+msgid "900"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1010
+#: includes/widgets/global/jet-woo-widgets-products.php:1147
+msgid "Currency Sign"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1174
+#: includes/widgets/global/jet-woo-widgets-products.php:2372
+msgid "Rated"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1196
+#: includes/widgets/global/jet-woo-widgets-products.php:2394
+msgid "Font Size (px)"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1426
+#: includes/widgets/global/jet-woo-widgets-products-list.php:1655
+#: includes/widgets/global/jet-woo-widgets-products.php:1657
+#: includes/widgets/global/jet-woo-widgets-products.php:1887
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:31
+msgid "Woo Products Grid"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:401
+msgid "Tags"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:414
+msgid "Badges"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1288
+msgid "Badges Display"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1291
+#: includes/widgets/global/jet-woo-widgets-products.php:1466
+msgid "Inline"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1292
+#: includes/widgets/global/jet-woo-widgets-products.php:1467
+msgid "Block"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1304
+msgid "Min Width"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1323
+msgid "Min Height"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1383
+msgid "Badge Color"
+msgstr ""
+
+#: includes/widgets/global/jet-woo-widgets-products.php:1463
+msgid "Button Display"
+msgstr ""

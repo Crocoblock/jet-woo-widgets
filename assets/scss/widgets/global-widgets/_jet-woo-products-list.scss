@@ -1,0 +1,126 @@
+/**
+	 * Jet products list
+	 */
+.jet-woo-products-list{
+	list-style: none;
+	margin: 0;
+	
+	.jet-woo-product-title{
+		font-size: 18px;
+	}
+	
+	.jet-woo-product-rating{
+		margin: 5px 0 5px 0;
+	}
+	
+	.jet-woo-products-list__item{
+		overflow: hidden;
+	}
+	
+	.jet-woo-product-price{
+		ins{
+			border: none;
+			font-style: normal;
+		}
+	}
+	
+	.jet-woo-products-list__item-img{
+		overflow: hidden;
+	}
+	
+	.jet-woo-product-thumbnail{
+		font-size: 0;
+		
+		img{
+			width: 100%;
+		}
+	}
+	
+	.jet-woo-product-button{
+		.button{
+			margin: 10px 0 10px 0;
+		}
+		
+		&.is--default{
+			.ajax_add_to_cart{
+				&.loading {
+					position: relative;
+					opacity: 0.25;
+					padding-right: 30px!important;
+					
+					&::after {
+						font-family: 'WooCommerce';
+						content: '\e01c';
+						vertical-align: top;
+						font-weight: 400;
+						position: absolute;
+						top: 50%;
+						right: 9px;
+						margin-top: -9px;
+						animation: spin 2s linear infinite;
+						font-size: 16px;
+						line-height: 1;
+					}
+				}
+				
+				&.added::after {
+					font-family: 'WooCommerce';
+					content: '\e017';
+					margin-left: 10px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	
+	.jet-woo-products-list__inner-box {
+		display: flex;
+		flex-grow: 1;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.jet-woo-product-categories{
+		ul{
+			margin: 0;
+			
+			> li{
+				list-style: none;
+				display: inline-block;
+			}
+		}
+	}
+	
+	&.products-layout-left{
+		.jet-woo-products-list__inner-box{
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+	}
+	
+	&.products-layout-right{
+		.jet-woo-products-list__inner-box{
+			flex-direction: row-reverse;
+			flex-wrap: wrap;
+		}
+	}
+	
+	&.products-layout-top{
+		.jet-woo-products-list__inner-box{
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+	}
+	
+	// remove added to cart button
+	.added_to_cart.wc-forward{
+		display: none!important;
+	}
+}
+
+.jet-woo-products-list__item-content{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
