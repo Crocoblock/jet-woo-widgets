@@ -131,6 +131,12 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 
 			}
 
+			if ( is_admin() ) {
+				if ( ! $this->has_elementor() ) {
+					$this->required_plugins_notice();
+				}
+			}
+
 		}
 
 		/**
