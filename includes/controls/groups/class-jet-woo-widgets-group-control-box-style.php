@@ -286,4 +286,21 @@ class Jet_Woo_Widgets_Group_Control_Box_Style extends Elementor\Group_Control_Ba
 
 		return $fields;
 	}
+
+	protected function prepare_fields( $fields ) {
+		array_walk( $fields, function ( &$field, $field_name ) {
+			if ( in_array( $field_name, array( 'popover_toggle' ) ) ) {
+				return;
+			}
+			$condition = array(
+				'popover_toggle!' => '',
+			);
+			if( isset( $field['condition'] ) ) {
+				$field['condition'] = array_merge( $field['condition'], $condition );
+			} else {
+				$field['condition'] = $condition;
+			}
+		} );
+		return parent::prepare_fields( $fields );
+	}
 }
