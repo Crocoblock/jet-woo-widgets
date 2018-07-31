@@ -1,7 +1,7 @@
 === JetWooWidgets For Elementor ===
 
 Contributors: CrocoBlock
-Tags: elementor, elementor builder, elements, addons, elementor addon, elementor widget, page builder, builder, visual editor, wordpress page builder, elementor form, Elementor, Elementor Page Builder, Elements, Elementor Addons, Add-ons, page builder woocommerce, products, categories, products list, product grid, products carousel, shop, online store
+Tags: elementor, elementor builder, elements, addons, elementor addon, elementor widget, page builder, builder, visual editor, wordpress page builder, products, categories, products list, product grid, products carousel, shop, online store
 Requires at least: 4.7
 Tested up to: 4.9.7
 Stable tag: 1.0.0

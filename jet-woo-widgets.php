@@ -6,8 +6,8 @@
  * Author:      CrocoBlock
  * Author URI:  https://crocoblock.com/
  * Text Domain: jet-woo-widgets
- * License:     GPL-2.0+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * License: GPLv3 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Domain Path: /languages
  */
 
