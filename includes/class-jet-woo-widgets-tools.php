@@ -93,7 +93,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 				}
 			}
 
-			return array_merge( array( 'full' => esc_html__( 'Full', 'jet-woo-widgets' ), ), $result );
+			return array_merge( array( 'full' => esc_html__( 'Full', 'jetwoo-widgets-for-elementor' ), ), $result );
 		}
 
 		/**
@@ -144,16 +144,16 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 		 */
 		public function orderby_arr() {
 			return array(
-				'none'          => esc_html__( 'None', 'jet-woo-widgets' ),
-				'ID'            => esc_html__( 'ID', 'jet-woo-widgets' ),
-				'author'        => esc_html__( 'Author', 'jet-woo-widgets' ),
-				'title'         => esc_html__( 'Title', 'jet-woo-widgets' ),
-				'name'          => esc_html__( 'Name (slug)', 'jet-woo-widgets' ),
-				'date'          => esc_html__( 'Date', 'jet-woo-widgets' ),
-				'modified'      => esc_html__( 'Modified', 'jet-woo-widgets' ),
-				'rand'          => esc_html__( 'Rand', 'jet-woo-widgets' ),
-				'comment_count' => esc_html__( 'Comment Count', 'jet-woo-widgets' ),
-				'menu_order'    => esc_html__( 'Menu Order', 'jet-woo-widgets' ),
+				'none'          => esc_html__( 'None', 'jetwoo-widgets-for-elementor' ),
+				'ID'            => esc_html__( 'ID', 'jetwoo-widgets-for-elementor' ),
+				'author'        => esc_html__( 'Author', 'jetwoo-widgets-for-elementor' ),
+				'title'         => esc_html__( 'Title', 'jetwoo-widgets-for-elementor' ),
+				'name'          => esc_html__( 'Name (slug)', 'jetwoo-widgets-for-elementor' ),
+				'date'          => esc_html__( 'Date', 'jetwoo-widgets-for-elementor' ),
+				'modified'      => esc_html__( 'Modified', 'jetwoo-widgets-for-elementor' ),
+				'rand'          => esc_html__( 'Rand', 'jetwoo-widgets-for-elementor' ),
+				'comment_count' => esc_html__( 'Comment Count', 'jetwoo-widgets-for-elementor' ),
+				'menu_order'    => esc_html__( 'Menu Order', 'jetwoo-widgets-for-elementor' ),
 			);
 		}
 
@@ -165,8 +165,8 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 		public function order_arr() {
 
 			return array(
-				'desc' => esc_html__( 'Descending', 'jet-woo-widgets' ),
-				'asc'  => esc_html__( 'Ascending', 'jet-woo-widgets' ),
+				'desc' => esc_html__( 'Descending', 'jetwoo-widgets-for-elementor' ),
+				'asc'  => esc_html__( 'Ascending', 'jetwoo-widgets-for-elementor' ),
 			);
 
 		}
@@ -178,14 +178,14 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 		 */
 		public function verrtical_align_attr() {
 			return array(
-				'baseline'    => esc_html__( 'Baseline', 'jet-woo-widgets' ),
-				'top'         => esc_html__( 'Top', 'jet-woo-widgets' ),
-				'middle'      => esc_html__( 'Middle', 'jet-woo-widgets' ),
-				'bottom'      => esc_html__( 'Bottom', 'jet-woo-widgets' ),
-				'sub'         => esc_html__( 'Sub', 'jet-woo-widgets' ),
-				'super'       => esc_html__( 'Super', 'jet-woo-widgets' ),
-				'text-top'    => esc_html__( 'Text Top', 'jet-woo-widgets' ),
-				'text-bottom' => esc_html__( 'Text Bottom', 'jet-woo-widgets' ),
+				'baseline'    => esc_html__( 'Baseline', 'jetwoo-widgets-for-elementor' ),
+				'top'         => esc_html__( 'Top', 'jetwoo-widgets-for-elementor' ),
+				'middle'      => esc_html__( 'Middle', 'jetwoo-widgets-for-elementor' ),
+				'bottom'      => esc_html__( 'Bottom', 'jetwoo-widgets-for-elementor' ),
+				'sub'         => esc_html__( 'Sub', 'jetwoo-widgets-for-elementor' ),
+				'super'       => esc_html__( 'Super', 'jetwoo-widgets-for-elementor' ),
+				'text-top'    => esc_html__( 'Text Top', 'jetwoo-widgets-for-elementor' ),
+				'text-bottom' => esc_html__( 'Text Bottom', 'jetwoo-widgets-for-elementor' ),
 			);
 		}
 
@@ -319,15 +319,15 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 			return apply_filters(
 				'jet_woo_widgets/carousel/available_arrows/prev',
 				array(
-					'fa fa-angle-left'          => __( 'Angle', 'jet-woo-widgets' ),
-					'fa fa-chevron-left'        => __( 'Chevron', 'jet-woo-widgets' ),
-					'fa fa-angle-double-left'   => __( 'Angle Double', 'jet-woo-widgets' ),
-					'fa fa-arrow-left'          => __( 'Arrow', 'jet-woo-widgets' ),
-					'fa fa-caret-left'          => __( 'Caret', 'jet-woo-widgets' ),
-					'fa fa-long-arrow-left'     => __( 'Long Arrow', 'jet-woo-widgets' ),
-					'fa fa-arrow-circle-left'   => __( 'Arrow Circle', 'jet-woo-widgets' ),
-					'fa fa-chevron-circle-left' => __( 'Chevron Circle', 'jet-woo-widgets' ),
-					'fa fa-caret-square-o-left' => __( 'Caret Square', 'jet-woo-widgets' ),
+					'fa fa-angle-left'          => __( 'Angle', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-chevron-left'        => __( 'Chevron', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-angle-double-left'   => __( 'Angle Double', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-arrow-left'          => __( 'Arrow', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-caret-left'          => __( 'Caret', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-long-arrow-left'     => __( 'Long Arrow', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-arrow-circle-left'   => __( 'Arrow Circle', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-chevron-circle-left' => __( 'Chevron Circle', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-caret-square-o-left' => __( 'Caret Square', 'jetwoo-widgets-for-elementor' ),
 				)
 			);
 
@@ -342,15 +342,15 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 			return apply_filters(
 				'jet_woo_widgets/carousel/available_arrows/next',
 				array(
-					'fa fa-angle-right'          => __( 'Angle', 'jet-woo-widgets' ),
-					'fa fa-chevron-right'        => __( 'Chevron', 'jet-woo-widgets' ),
-					'fa fa-angle-double-right'   => __( 'Angle Double', 'jet-woo-widgets' ),
-					'fa fa-arrow-right'          => __( 'Arrow', 'jet-woo-widgets' ),
-					'fa fa-caret-right'          => __( 'Caret', 'jet-woo-widgets' ),
-					'fa fa-long-arrow-right'     => __( 'Long Arrow', 'jet-woo-widgets' ),
-					'fa fa-arrow-circle-right'   => __( 'Arrow Circle', 'jet-woo-widgets' ),
-					'fa fa-chevron-circle-right' => __( 'Chevron Circle', 'jet-woo-widgets' ),
-					'fa fa-caret-square-o-right' => __( 'Caret Square', 'jet-woo-widgets' ),
+					'fa fa-angle-right'          => __( 'Angle', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-chevron-right'        => __( 'Chevron', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-angle-double-right'   => __( 'Angle Double', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-arrow-right'          => __( 'Arrow', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-caret-right'          => __( 'Caret', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-long-arrow-right'     => __( 'Long Arrow', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-arrow-circle-right'   => __( 'Arrow Circle', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-chevron-circle-right' => __( 'Chevron Circle', 'jetwoo-widgets-for-elementor' ),
+					'fa fa-caret-square-o-right' => __( 'Caret Square', 'jetwoo-widgets-for-elementor' ),
 				)
 			);
 

@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: JetWooWidgets For Elementor
+ * Plugin Name: JetWoo Widgets For Elementor
  * Description: Set of modules for WooCommerce based on Elementor Page Builder
  * Version:     1.0.0
  * Author:      CrocoBlock
  * Author URI:  https://crocoblock.com/
- * Text Domain: jet-woo-widgets
+ * Text Domain: jetwoo-widgets-for-elementor
  * License: GPLv3 or later
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Domain Path: /languages
@@ -170,7 +170,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 			);
 
 			$config = array(
-				'id'           => 'jet-woo-widgets',
+				'id'           => 'jetwoo-widgets-for-elementor',
 				'default_path' => '',
 				'menu'         => 'jet-woo-widgets-install-plugins',
 				'parent_slug'  => 'plugins.php',
@@ -183,12 +183,12 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 					'notice_can_install_required'     => _n_noop(
 						'Jet Woo Widgets for Elementor requires the following plugin: %1$s.',
 						'Jet Woo Widgets for Elementor requires the following plugins: %1$s.',
-						'jet-woo-widgets'
+						'jetwoo-widgets-for-elementor'
 					),
 					'notice_can_install_recommended'  => _n_noop(
 						'Jet Woo Widgets for Elementor recommends the following plugin: %1$s.',
 						'Jet Woo Widgets for Elementor recommends the following plugins: %1$s.',
-						'jet-woo-widgets'
+						'jetwoo-widgets-for-elementor'
 					),
 				),
 			);
@@ -271,7 +271,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 		 * @return void
 		 */
 		public function lang() {
-			load_plugin_textdomain( 'jet-woo-widgets', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+			load_plugin_textdomain( 'jetwoo-widgets-for-elementor', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 		}
 
 		/**

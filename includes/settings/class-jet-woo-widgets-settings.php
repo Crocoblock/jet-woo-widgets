@@ -105,7 +105,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 				return false;
 			}
 
-			$message = esc_html__( 'Settings saved', 'jet-woo-widgets' );
+			$message = esc_html__( 'Settings saved', 'jetwoo-widgets-for-elementor' );
 
 			printf( '<div class="notice notice-success is-dismissible"><p>%s</p></div>', $message );
 
@@ -188,8 +188,8 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 
 			add_submenu_page(
 				'elementor',
-				esc_html__( 'Jet Woo Widgets Settings', 'jet-woo-widgets' ),
-				esc_html__( 'Jet Woo Widgets Settings', 'jet-woo-widgets' ),
+				esc_html__( 'Jet Woo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
+				esc_html__( 'Jet Woo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
 				'manage_options',
 				$this->key,
 				array( $this, 'render_page' )
@@ -213,7 +213,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 					'jet_woo_widgets_settings' => array(
 						'type'   => 'section',
 						'scroll' => false,
-						'title'  => esc_html__( 'Jet Woo Widgets Settings', 'jet-woo-widgets' ),
+						'title'  => esc_html__( 'Jet Woo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
 					),
 				)
 			);
@@ -257,7 +257,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 				array(
 					'available_widgets_options' => array(
 						'parent'      => 'jet_woo_widgets_tab_vertical',
-						'title'       => esc_html__( 'Available Widgets', 'jet-woo-widgets' ),
+						'title'       => esc_html__( 'Available Widgets', 'jetwoo-widgets-for-elementor' ),
 					),
 				)
 			);
@@ -271,8 +271,8 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 						'parent'      => 'available_widgets_options',
 						'value'       => $this->get( 'global_available_widgets', $default_global_available_widgets ),
 						'options'     => $this->global_available_widgets,
-						'title'       => esc_html__( 'Global Available Widgets', 'jet-woo-widgets' ),
-						'description' => esc_html__( 'List of widgets that will be available when editing the page', 'jet-woo-widgets' ),
+						'title'       => esc_html__( 'Global Available Widgets', 'jetwoo-widgets-for-elementor' ),
+						'description' => esc_html__( 'List of widgets that will be available when editing the page', 'jetwoo-widgets-for-elementor' ),
 						'class'       => 'jet_woo_widgets_settings_form__checkbox-group'
 					),
 				)
@@ -282,7 +282,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 				array(
 					'product_thumb_effect_options' => array(
 						'parent' => 'jet_woo_widgets_tab_vertical',
-						'title'  => esc_html__( 'Product Thumb Effect', 'jet-woo-widgets' ),
+						'title'  => esc_html__( 'Product Thumb Effect', 'jetwoo-widgets-for-elementor' ),
 					),
 				)
 			);
@@ -294,8 +294,8 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 						'id'          => 'enable_product_thumb_effect',
 						'name'        => 'enable_product_thumb_effect',
 						'parent'      => 'product_thumb_effect_options',
-						'title'       => esc_html__( 'Enable Thumbnails Effect', 'jet-woo-widgets' ),
-						'description' => esc_html__( 'Enable thumbnails switch on hover', 'jet-woo-widgets' ),
+						'title'       => esc_html__( 'Enable Thumbnails Effect', 'jetwoo-widgets-for-elementor' ),
+						'description' => esc_html__( 'Enable thumbnails switch on hover', 'jetwoo-widgets-for-elementor' ),
 						'value'       => $this->get( 'enable_product_thumb_effect' ),
 						'toggle'      => array(
 							'true_toggle'  => 'On',
@@ -314,14 +314,14 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 						'parent'  => 'product_thumb_effect_options',
 						'value'   => $this->get( 'product_thumb_effect', 'slide-left' ),
 						'options' => array(
-							'slide-left'     => esc_html__( 'Slide Left', 'jet-woo-widgets' ),
-							'slide-right'    => esc_html__( 'Slide Right', 'jet-woo-widgets' ),
-							'slide-top'      => esc_html__( 'Slide Top', 'jet-woo-widgets' ),
-							'slide-bottom'   => esc_html__( 'Slide Bottom', 'jet-woo-widgets' ),
-							'fade'           => esc_html__( 'Fade', 'jet-woo-widgets' ),
-							'fade-with-zoom' => esc_html__( 'Fade With Zoom', 'jet-woo-widgets' ),
+							'slide-left'     => esc_html__( 'Slide Left', 'jetwoo-widgets-for-elementor' ),
+							'slide-right'    => esc_html__( 'Slide Right', 'jetwoo-widgets-for-elementor' ),
+							'slide-top'      => esc_html__( 'Slide Top', 'jetwoo-widgets-for-elementor' ),
+							'slide-bottom'   => esc_html__( 'Slide Bottom', 'jetwoo-widgets-for-elementor' ),
+							'fade'           => esc_html__( 'Fade', 'jetwoo-widgets-for-elementor' ),
+							'fade-with-zoom' => esc_html__( 'Fade With Zoom', 'jetwoo-widgets-for-elementor' ),
 						),
-						'title'   => esc_html__( 'Thumbnails Effect:', 'jet-woo-widgets' ),
+						'title'   => esc_html__( 'Thumbnails Effect:', 'jetwoo-widgets-for-elementor' ),
 					)
 				)
 			);
@@ -332,7 +332,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 						'type'   => 'html',
 						'parent' => 'settings_bottom',
 						'class'  => 'cx-component dialog-save',
-						'html'   => '<button type="submit" class="button button-primary">' . esc_html__( 'Save', 'jet-woo-widgets' ) . '</button>',
+						'html'   => '<button type="submit" class="button button-primary">' . esc_html__( 'Save', 'jetwoo-widgets-for-elementor' ) . '</button>',
 					),
 				)
 			);

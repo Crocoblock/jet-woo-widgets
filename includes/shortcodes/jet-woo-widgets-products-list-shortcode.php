@@ -24,17 +24,17 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 		return apply_filters( 'jet-woo-widgets/shortcodes/jet-woo-products-list/atts', array(
 			'products_layout' => array(
 				'type'    => 'select',
-				'label'   => esc_html__( 'Layout', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Layout', 'jetwoo-widgets-for-elementor' ),
 				'default' => 'left',
 				'options' => array(
-					'left'  => esc_html__( 'Image Left', 'jet-woo-widgets' ),
-					'right' => esc_html__( 'Image Right', 'jet-woo-widgets' ),
-					'top'   => esc_html__( 'Image Top', 'jet-woo-widgets' ),
+					'left'  => esc_html__( 'Image Left', 'jetwoo-widgets-for-elementor' ),
+					'right' => esc_html__( 'Image Right', 'jetwoo-widgets-for-elementor' ),
+					'top'   => esc_html__( 'Image Top', 'jetwoo-widgets-for-elementor' ),
 				),
 			),
 			'number'          => array(
 				'type'    => 'number',
-				'label'   => esc_html__( 'Products Number', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Products Number', 'jetwoo-widgets-for-elementor' ),
 				'default' => 3,
 				'min'     => 1,
 				'max'     => 30,
@@ -42,21 +42,21 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			),
 			'products_query'  => array(
 				'type'    => 'select',
-				'label'   => esc_html__( 'Query products by', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Query products by', 'jetwoo-widgets-for-elementor' ),
 				'default' => 'all',
 				'options' => array(
-					'all'      => esc_html__( 'All', 'jet-woo-widgets' ),
-					'featured' => esc_html__( 'Featured', 'jet-woo-widgets' ),
-					'sale'     => esc_html__( 'Sale', 'jet-woo-widgets' ),
-					'tag'      => esc_html__( 'Tag', 'jet-woo-widgets' ),
-					'category' => esc_html__( 'Category', 'jet-woo-widgets' ),
-					'ids'      => esc_html__( 'Specific IDs', 'jet-woo-widgets' ),
-					'viewed'   => esc_html__( 'Recently Viewed', 'jet-woo-widgets' ),
+					'all'      => esc_html__( 'All', 'jetwoo-widgets-for-elementor' ),
+					'featured' => esc_html__( 'Featured', 'jetwoo-widgets-for-elementor' ),
+					'sale'     => esc_html__( 'Sale', 'jetwoo-widgets-for-elementor' ),
+					'tag'      => esc_html__( 'Tag', 'jetwoo-widgets-for-elementor' ),
+					'category' => esc_html__( 'Category', 'jetwoo-widgets-for-elementor' ),
+					'ids'      => esc_html__( 'Specific IDs', 'jetwoo-widgets-for-elementor' ),
+					'viewed'   => esc_html__( 'Recently Viewed', 'jetwoo-widgets-for-elementor' ),
 				),
 			),
 			'products_ids'    => array(
 				'type'      => 'text',
-				'label'     => esc_html__( 'Set comma separated IDs list (10, 22, 19 etc.)', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Set comma separated IDs list (10, 22, 19 etc.)', 'jetwoo-widgets-for-elementor' ),
 				'default'   => '',
 				'condition' => array(
 					'products_query' => array( 'ids' ),
@@ -64,7 +64,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			),
 			'products_cat'    => array(
 				'type'      => 'select2',
-				'label'     => esc_html__( 'Category', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Category', 'jetwoo-widgets-for-elementor' ),
 				'default'   => '',
 				'multiple'  => true,
 				'options'   => $this->get_product_categories(),
@@ -74,7 +74,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			),
 			'products_tag'    => array(
 				'type'      => 'select2',
-				'label'     => esc_html__( 'Tag', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Tag', 'jetwoo-widgets-for-elementor' ),
 				'default'   => '',
 				'multiple'  => true,
 				'options'   => $this->get_product_tags(),
@@ -84,28 +84,28 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			),
 			'products_order'  => array(
 				'type'    => 'select',
-				'label'   => esc_html__( 'Order by', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Order by', 'jetwoo-widgets-for-elementor' ),
 				'default' => 'default',
 				'options' => array(
-					'default' => esc_html__( 'Date', 'jet-woo-widgets' ),
-					'price'   => esc_html__( 'Price', 'jet-woo-widgets' ),
-					'rand'    => esc_html__( 'Random', 'jet-woo-widgets' ),
-					'sales'   => esc_html__( 'Sales', 'jet-woo-widgets' ),
-					'rated'   => esc_html__( 'Top Rated', 'jet-woo-widgets' ),
+					'default' => esc_html__( 'Date', 'jetwoo-widgets-for-elementor' ),
+					'price'   => esc_html__( 'Price', 'jetwoo-widgets-for-elementor' ),
+					'rand'    => esc_html__( 'Random', 'jetwoo-widgets-for-elementor' ),
+					'sales'   => esc_html__( 'Sales', 'jetwoo-widgets-for-elementor' ),
+					'rated'   => esc_html__( 'Top Rated', 'jetwoo-widgets-for-elementor' ),
 				),
 			),
 			'show_title'      => array(
 				'type'         => 'switcher',
-				'label'        => esc_html__( 'Show Products Title', 'jet-woo-widgets' ),
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Products Title', 'jetwoo-widgets-for-elementor' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
 				'separator'    => 'before'
 			),
 			'title_length'        => array(
 				'type'      => 'number',
-				'label'     => esc_html__( 'Title Words Count', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Title Words Count', 'jetwoo-widgets-for-elementor' ),
 				'min' => 1,
 				'default'   => 10,
 				'condition'    => array(
@@ -114,15 +114,15 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			),
 			'show_image'      => array(
 				'type'         => 'switcher',
-				'label'        => esc_html__( 'Show Products Featured Image', 'jet-woo-widgets' ),
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Products Featured Image', 'jetwoo-widgets-for-elementor' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
 			),
 			'thumb_size'      => array(
 				'type'      => 'select',
-				'label'     => esc_html__( 'Featured Image Size', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Featured Image Size', 'jetwoo-widgets-for-elementor' ),
 				'default'   => 'woocommerce_thumbnail',
 				'options'   => jet_woo_widgets_tools()->get_image_sizes(),
 				'condition' => array(
@@ -131,42 +131,42 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			),
 			'show_cat'        => array(
 				'type'         => 'switcher',
-				'label'        => esc_html__( 'Show Product Categories', 'jet-woo-widgets' ),
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Product Categories', 'jetwoo-widgets-for-elementor' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
 			),
 			'show_price'      => array(
 				'type'         => 'switcher',
-				'label'        => esc_html__( 'Show Product Price', 'jet-woo-widgets' ),
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Product Price', 'jetwoo-widgets-for-elementor' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
 			),
 			'show_rating'     => array(
 				'type'         => 'switcher',
-				'label'        => esc_html__( 'Show Product Rating', 'jet-woo-widgets' ),
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Product Rating', 'jetwoo-widgets-for-elementor' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
 			),
 			'show_button'     => array(
 				'type'         => 'switcher',
-				'label'        => esc_html__( 'Show Add To Cart Button', 'jet-woo-widgets' ),
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Add To Cart Button', 'jetwoo-widgets-for-elementor' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
 			),
 			'button_use_ajax_style' => array(
-				'label'        => esc_html__( 'Use default ajax add to cart styles', 'jet-elements' ),
-				'description'  => esc_html__( 'This option enables default WooCommerce styles for \'Add to Cart\' ajax button (\'Loading\' and \'Added\' statements)', 'jet-elements' ),
+				'label'        => esc_html__( 'Use default ajax add to cart styles', 'jetwoo-widgets-for-elementor' ),
+				'description'  => esc_html__( 'This option enables default WooCommerce styles for \'Add to Cart\' ajax button (\'Loading\' and \'Added\' statements)', 'jetwoo-widgets-for-elementor' ),
 				'type'         => 'switcher',
-				'label_on'     => esc_html__( 'Yes', 'jet-elements' ),
-				'label_off'    => esc_html__( 'No', 'jet-elements' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => '',
 				'condition' => array(
@@ -323,7 +323,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 		$query = $this->query();
 
 		if ( empty( $query ) || is_wp_error( $query ) ) {
-			echo sprintf( '<h3 class="jet-woo-products__not-found">%s</h3>', esc_html__( 'Products not found', 'jet-woo-widgets' ) );
+			echo sprintf( '<h3 class="jet-woo-products__not-found">%s</h3>', esc_html__( 'Products not found', 'jetwoo-widgets-for-elementor' ) );
 
 			return false;
 		}

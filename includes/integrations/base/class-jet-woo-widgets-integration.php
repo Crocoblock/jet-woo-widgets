@@ -185,12 +185,12 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Integration' ) ) {
 		public function register_category() {
 
 			$elements_manager = Elementor\Plugin::instance()->elements_manager;
-			$jet_woo_widgets_cat       = 'jet-woo-widgets';
+			$jet_woo_widgets_cat       = 'jetwoo-widgets-for-elementor';
 
 			$elements_manager->add_category(
 				$jet_woo_widgets_cat,
 				array(
-					'title' => esc_html__( 'Jet Woo Widgets', 'jet-woo-widgets' ),
+					'title' => esc_html__( 'Jet Woo Widgets', 'jetwoo-widgets-for-elementor' ),
 					'icon'  => 'font',
 				),
 				2

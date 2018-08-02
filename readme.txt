@@ -1,4 +1,4 @@
-=== JetWooWidgets For Elementor ===
+=== JetWoo Widgets For Elementor ===
 
 Contributors: CrocoBlock
 Tags: elementor, elementor builder, elements, addons, elementor addon, elementor widget, page builder, builder, visual editor, wordpress page builder, products, categories, products list, product grid, products carousel, shop, online store
@@ -31,7 +31,7 @@ Just drag and drop the needed widget ot the page built with Elementor. It will p
 
 There are also multiple Style settings for every widget, allowing to customize the items, thumbnails shown, excerpts, price blocks, etc.
 
-With JetWooWidgets it is easy to add WooCommerce products to any of your pages built with Elementor just in a few clicks!
+With JetWoo Widgets it is easy to add WooCommerce products to any of your pages built with Elementor just in a few clicks!
 
 == Installation ==
 

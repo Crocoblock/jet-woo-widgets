@@ -28,7 +28,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 	}
 
 	public function get_title() {
-		return esc_html__( 'Woo Categories Grid', 'jet-woo-widgets' );
+		return esc_html__( 'Woo Categories Grid', 'jetwoo-widgets-for-elementor' );
 	}
 
 	public function get_icon() {
@@ -36,7 +36,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 	}
 
 	public function get_categories() {
-		return array( 'jet-woo-widgets' );
+		return array( 'jetwoo-widgets-for-elementor' );
 	}
 
 	public function __shortcode() {
@@ -52,7 +52,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_general',
 			array(
-				'label' => esc_html__( 'General', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'General', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
@@ -95,17 +95,17 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_carousel',
 			array(
-				'label' => esc_html__( 'Carousel', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Carousel', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
 		$this->add_control(
 			'carousel_enabled',
 			array(
-				'label'        => esc_html__( 'Enable Carousel', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Enable Carousel', 'jetwoo-widgets-for-elementor' ),
 				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'yes',
 				'default'      => '',
 			)
@@ -114,7 +114,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'slides_min_height',
 			array(
-				'label'       => esc_html__( 'Slides Minimal Height', 'jet-woo-widgets' ),
+				'label'       => esc_html__( 'Slides Minimal Height', 'jetwoo-widgets-for-elementor' ),
 				'label_block' => true,
 				'type'        => Controls_Manager::NUMBER,
 				'default'     => '',
@@ -128,7 +128,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'slides_to_scroll',
 			array(
-				'label'     => esc_html__( 'Slides to Scroll', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Slides to Scroll', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'default'   => '1',
 				'options'   => jet_woo_widgets_tools()->get_select_range( 4 ),
@@ -141,10 +141,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'arrows',
 			array(
-				'label'        => esc_html__( 'Show Arrows Navigation', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Arrows Navigation', 'jetwoo-widgets-for-elementor' ),
 				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => 'true',
 			)
@@ -153,7 +153,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'prev_arrow',
 			array(
-				'label'     => esc_html__( 'Prev Arrow Icon', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Prev Arrow Icon', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'default'   => 'fa fa-angle-left',
 				'options'   => jet_woo_widgets_tools()->get_available_prev_arrows_list(),
@@ -166,7 +166,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'next_arrow',
 			array(
-				'label'     => esc_html__( 'Next Arrow Icon', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Next Arrow Icon', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'default'   => 'fa fa-angle-right',
 				'options'   => jet_woo_widgets_tools()->get_available_next_arrows_list(),
@@ -179,10 +179,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'dots',
 			array(
-				'label'        => esc_html__( 'Show Dots Navigation', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Show Dots Navigation', 'jetwoo-widgets-for-elementor' ),
 				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => '',
 			)
@@ -191,10 +191,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'pause_on_hover',
 			array(
-				'label'        => esc_html__( 'Pause on Hover', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Pause on Hover', 'jetwoo-widgets-for-elementor' ),
 				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => '',
 			)
@@ -203,10 +203,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'autoplay',
 			array(
-				'label'        => esc_html__( 'Autoplay', 'jet-woo-widgets' ),
+				'label'        => esc_html__( 'Autoplay', 'jetwoo-widgets-for-elementor' ),
 				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => 'true',
 			)
@@ -215,7 +215,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'autoplay_speed',
 			array(
-				'label'     => esc_html__( 'Autoplay Speed', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Autoplay Speed', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::NUMBER,
 				'default'   => 5000,
 				'condition' => array(
@@ -227,10 +227,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'infinite',
 			array(
-				'label'        => esc_html__( 'Infinite Loop', 'elementor' ),
+				'label'        => esc_html__( 'Infinite Loop', 'jetwoo-widgets-for-elementor' ),
 				'type'         => Controls_Manager::SWITCHER,
-				'label_on'     => esc_html__( 'Yes', 'jet-woo-widgets' ),
-				'label_off'    => esc_html__( 'No', 'jet-woo-widgets' ),
+				'label_on'     => esc_html__( 'Yes', 'jetwoo-widgets-for-elementor' ),
+				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => 'true',
 			)
@@ -239,12 +239,12 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'effect',
 			array(
-				'label'     => esc_html__( 'Effect', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Effect', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'default'   => 'slide',
 				'options'   => array(
-					'slide' => esc_html__( 'Slide', 'jet-woo-widgets' ),
-					'fade'  => esc_html__( 'Fade', 'jet-woo-widgets' ),
+					'slide' => esc_html__( 'Slide', 'jetwoo-widgets-for-elementor' ),
+					'fade'  => esc_html__( 'Fade', 'jetwoo-widgets-for-elementor' ),
 				),
 				'condition' => array(
 					'columns' => '1',
@@ -255,7 +255,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'speed',
 			array(
-				'label'   => esc_html__( 'Animation Speed', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Animation Speed', 'jetwoo-widgets-for-elementor' ),
 				'type'    => Controls_Manager::NUMBER,
 				'default' => 500,
 			)
@@ -266,7 +266,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_column_style',
 			array(
-				'label'      => esc_html__( 'Column', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Column', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -275,7 +275,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'column_padding',
 			array(
-				'label'       => esc_html__( 'Column Padding', 'jet-woo-widgets' ),
+				'label'       => esc_html__( 'Column Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::DIMENSIONS,
 				'size_units'  => array( 'px' ),
 				'render_type' => 'template',
@@ -291,7 +291,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_box_style',
 			array(
-				'label'      => esc_html__( 'Category Item', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Category Item', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -304,7 +304,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_box_hover_style',
 			array(
-				'label'      => esc_html__( 'Category Item (hover)', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Category Item (hover)', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -317,7 +317,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_thumb_style',
 			array(
-				'label'      => esc_html__( 'Category Thumbnail', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Category Thumbnail', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -330,7 +330,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_content_style',
 			array(
-				'label'      => esc_html__( 'Content', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Content', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -343,7 +343,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_title_style',
 			array(
-				'label'      => esc_html__( 'Title', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Title', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -356,7 +356,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_count_style',
 			array(
-				'label'      => esc_html__( 'Count', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Count', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -369,7 +369,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_excerpt_style',
 			array(
-				'label'      => esc_html__( 'Excerpt', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Excerpt', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -382,7 +382,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_overlay_style',
 			array(
-				'label'      => esc_html__( 'Overlay', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Overlay', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 			)
@@ -395,7 +395,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_arrows_style',
 			array(
-				'label'      => esc_html__( 'Carousel Arrows', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Carousel Arrows', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 				'condition'  => array(
@@ -411,7 +411,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_section(
 			'section_dots_style',
 			array(
-				'label'      => esc_html__( 'Carousel Dots', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Carousel Dots', 'jetwoo-widgets-for-elementor' ),
 				'tab'        => Controls_Manager::TAB_STYLE,
 				'show_label' => false,
 				'condition'  => array(
@@ -452,7 +452,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['inner-box'] => 'background-color: {{VALUE}}',
@@ -464,7 +464,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			Group_Control_Border::get_type(),
 			array(
 				'name'        => 'box_border',
-				'label'       => esc_html__( 'Border', 'jet-woo-widgets' ),
+				'label'       => esc_html__( 'Border', 'jetwoo-widgets-for-elementor' ),
 				'placeholder' => '1px',
 				'default'     => '1px',
 				'selector'    => '{{WRAPPER}} ' . $css_scheme['inner-box'],
@@ -475,7 +475,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'box_border_radius',
 			array(
-				'label'      => esc_html__( 'Border Radius', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Border Radius', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%' ),
 				'selectors'  => array(
@@ -495,7 +495,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'box_padding',
 			array(
-				'label'      => esc_html__( 'Padding', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -512,7 +512,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_title',
 			array(
-				'label'     => esc_html__( 'Title', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Title', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			)
@@ -521,7 +521,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_title_color',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -536,7 +536,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_excerpt',
 			array(
-				'label'     => esc_html__( 'Excerpt', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Excerpt', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			)
@@ -545,7 +545,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_excerpt_color',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -560,7 +560,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_count',
 			array(
-				'label'     => esc_html__( 'Count', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Count', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			)
@@ -569,7 +569,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_count_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['inner-box'] . ':hover .jet-woo-category-count' => 'background-color: {{VALUE}}',
@@ -580,7 +580,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_count_color',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -595,7 +595,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_content',
 			array(
-				'label'     => esc_html__( 'Content', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Content', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			)
@@ -604,7 +604,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'box_hover_content_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['inner-box'] . ':hover .jet-woo-categories-content' => 'background-color: {{VALUE}}',
@@ -619,7 +619,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'thumb_background',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['thumb'] => 'background-color: {{VALUE}}',
@@ -631,7 +631,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			Group_Control_Border::get_type(),
 			array(
 				'name'        => 'thumb_border',
-				'label'       => esc_html__( 'Border', 'jet-woo-widgets' ),
+				'label'       => esc_html__( 'Border', 'jetwoo-widgets-for-elementor' ),
 				'placeholder' => '1px',
 				'default'     => '1px',
 				'selector'    => '{{WRAPPER}} ' . $css_scheme['thumb'],
@@ -641,7 +641,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'thumb_border_radius',
 			array(
-				'label'      => esc_html__( 'Border Radius', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Border Radius', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%' ),
 				'selectors'  => array(
@@ -661,7 +661,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'thumb_margin',
 			array(
-				'label'      => esc_html__( 'Margin', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Margin', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -674,7 +674,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'thumb_padding',
 			array(
-				'label'      => esc_html__( 'Padding', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -690,7 +690,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'content_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['content'] => 'background-color: {{VALUE}}',
@@ -702,7 +702,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			Group_Control_Border::get_type(),
 			array(
 				'name'        => 'content_border',
-				'label'       => esc_html__( 'Border', 'jet-woo-widgets' ),
+				'label'       => esc_html__( 'Border', 'jetwoo-widgets-for-elementor' ),
 				'placeholder' => '1px',
 				'default'     => '1px',
 				'selector'    => '{{WRAPPER}} ' . $css_scheme['content'],
@@ -713,7 +713,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'content_hover_border_color',
 			array(
-				'label'     => esc_html__( 'Hover Border Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Hover Border Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -728,7 +728,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'content_border_radius',
 			array(
-				'label'      => esc_html__( 'Border Radius', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Border Radius', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%' ),
 				'selectors'  => array(
@@ -748,7 +748,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'content_margin',
 			array(
-				'label'      => esc_html__( 'Margin', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Margin', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -761,7 +761,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'content_padding',
 			array(
-				'label'      => esc_html__( 'Padding', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -786,7 +786,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'title_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['title'] => 'background-color: {{VALUE}}',
@@ -799,14 +799,14 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_title_color_normal',
 			array(
-				'label' => esc_html__( 'Normal', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Normal', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
 		$this->add_control(
 			'title_color',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -823,14 +823,14 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_title_color_hover',
 			array(
-				'label' => esc_html__( 'Hover', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Hover', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
 		$this->add_control(
 			'title_color_hover',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -849,20 +849,20 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'title_alignment',
 			array(
-				'label'     => esc_html__( 'Alignment', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Alignment', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::CHOOSE,
 				'default'   => 'center',
 				'options'   => array(
 					'left'   => array(
-						'title' => esc_html__( 'Left', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-left',
 					),
 					'center' => array(
-						'title' => esc_html__( 'Center', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-center',
 					),
 					'right'  => array(
-						'title' => esc_html__( 'Right', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-right',
 					),
 				),
@@ -877,7 +877,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'title_padding',
 			array(
-				'label'      => esc_html__( 'Padding', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -889,7 +889,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'title_margin',
 			array(
-				'label'      => esc_html__( 'Margin', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Margin', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -914,7 +914,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'count_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['count'] => 'background-color: {{VALUE}}',
@@ -925,7 +925,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'count_color',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -941,7 +941,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			Group_Control_Border::get_type(),
 			array(
 				'name'        => 'count_border',
-				'label'       => esc_html__( 'Border', 'jet-woo-widgets' ),
+				'label'       => esc_html__( 'Border', 'jetwoo-widgets-for-elementor' ),
 				'placeholder' => '1px',
 				'default'     => '1px',
 				'selector'    => '{{WRAPPER}} ' . $css_scheme['count'],
@@ -952,7 +952,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'count_hover_border_color',
 			array(
-				'label'     => esc_html__( 'Hover Border Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Hover Border Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => array(
 					'type'  => Scheme_Color::get_type(),
@@ -967,7 +967,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'count_border_radius',
 			array(
-				'label'      => esc_html__( 'Border Radius', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Border Radius', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%' ),
 				'selectors'  => array(
@@ -987,20 +987,20 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'count_alignment',
 			array(
-				'label'     => esc_html__( 'Alignment', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Alignment', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::CHOOSE,
 				'default'   => 'center',
 				'options'   => array(
 					'left'   => array(
-						'title' => esc_html__( 'Left', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-left',
 					),
 					'center' => array(
-						'title' => esc_html__( 'Center', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-center',
 					),
 					'right'  => array(
-						'title' => esc_html__( 'Right', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-right',
 					),
 				),
@@ -1017,7 +1017,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'count_padding',
 			array(
-				'label'      => esc_html__( 'Padding', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -1029,7 +1029,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'count_margin',
 			array(
-				'label'      => esc_html__( 'Margin', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Margin', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -1053,7 +1053,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'excerpt_bg',
 			array(
-				'label'     => esc_html__( 'Background Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['excerpt'] => 'background-color: {{VALUE}}',
@@ -1064,7 +1064,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'excerpt_color',
 			array(
-				'label'     => esc_html__( 'Color', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['excerpt'] => 'color: {{VALUE}}',
@@ -1075,20 +1075,20 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'excerpt_alignment',
 			array(
-				'label'     => esc_html__( 'Alignment', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Alignment', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::CHOOSE,
 				'default'   => 'center',
 				'options'   => array(
 					'left'   => array(
-						'title' => esc_html__( 'Left', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-left',
 					),
 					'center' => array(
-						'title' => esc_html__( 'Center', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-center',
 					),
 					'right'  => array(
-						'title' => esc_html__( 'Right', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-right',
 					),
 				),
@@ -1102,7 +1102,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'excerpt_padding',
 			array(
-				'label'      => esc_html__( 'Padding', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Padding', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -1114,7 +1114,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'excerpt_margin',
 			array(
-				'label'      => esc_html__( 'Margin', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Margin', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -1132,22 +1132,22 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_overlay_normal',
 			array(
-				'label' => esc_html__( 'Normal', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Normal', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
 		$this->add_control(
 			'overlay_bg',
 			array(
-				'label'       => _x( 'Background Type', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Background Type', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::CHOOSE,
 				'options'     => array(
 					'color'    => array(
-						'title' => _x( 'Classic', 'Background Control', 'jet-woo-widgets' ),
+						'title' => _x( 'Classic', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-paint-brush',
 					),
 					'gradient' => array(
-						'title' => _x( 'Gradient', 'Background Control', 'jet-woo-widgets' ),
+						'title' => _x( 'Gradient', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-barcode',
 					),
 				),
@@ -1160,10 +1160,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_color',
 			array(
-				'label'     => _x( 'Color', 'Background Control', 'jet-woo-widgets' ),
+				'label'     => _x( 'Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'default'   => 'transparent',
-				'title'     => _x( 'Background Color', 'Background Control', 'jet-woo-widgets' ),
+				'title'     => _x( 'Background Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['overlay'] => 'background-color: {{VALUE}};',
 				),
@@ -1173,7 +1173,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_color_stop',
 			array(
-				'label'       => _x( 'Location', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Location', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::SLIDER,
 				'size_units'  => array( '%' ),
 				'default'     => array(
@@ -1191,7 +1191,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_color_b',
 			array(
-				'label'       => _x( 'Second Color', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Second Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::COLOR,
 				'default'     => '#f2295b',
 				'render_type' => 'ui',
@@ -1205,7 +1205,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_color_b_stop',
 			array(
-				'label'       => _x( 'Location', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Location', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::SLIDER,
 				'size_units'  => array( '%' ),
 				'default'     => array(
@@ -1223,11 +1223,11 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_gradient_type',
 			array(
-				'label'       => _x( 'Type', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Type', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::SELECT,
 				'options'     => array(
-					'linear' => _x( 'Linear', 'Background Control', 'jet-woo-widgets' ),
-					'radial' => _x( 'Radial', 'Background Control', 'jet-woo-widgets' ),
+					'linear' => _x( 'Linear', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'radial' => _x( 'Radial', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				),
 				'default'     => 'linear',
 				'render_type' => 'ui',
@@ -1241,7 +1241,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_gradient_angle',
 			array(
-				'label'      => _x( 'Angle', 'Background Control', 'jet-woo-widgets' ),
+				'label'      => _x( 'Angle', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'deg' ),
 				'default'    => array(
@@ -1267,18 +1267,18 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_gradient_position',
 			array(
-				'label'     => _x( 'Position', 'Background Control', 'jet-woo-widgets' ),
+				'label'     => _x( 'Position', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'options'   => array(
-					'center center' => _x( 'Center Center', 'Background Control', 'jet-woo-widgets' ),
-					'center left'   => _x( 'Center Left', 'Background Control', 'jet-woo-widgets' ),
-					'center right'  => _x( 'Center Right', 'Background Control', 'jet-woo-widgets' ),
-					'top center'    => _x( 'Top Center', 'Background Control', 'jet-woo-widgets' ),
-					'top left'      => _x( 'Top Left', 'Background Control', 'jet-woo-widgets' ),
-					'top right'     => _x( 'Top Right', 'Background Control', 'jet-woo-widgets' ),
-					'bottom center' => _x( 'Bottom Center', 'Background Control', 'jet-woo-widgets' ),
-					'bottom left'   => _x( 'Bottom Left', 'Background Control', 'jet-woo-widgets' ),
-					'bottom right'  => _x( 'Bottom Right', 'Background Control', 'jet-woo-widgets' ),
+					'center center' => _x( 'Center Center', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'center left'   => _x( 'Center Left', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'center right'  => _x( 'Center Right', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'top center'    => _x( 'Top Center', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'top left'      => _x( 'Top Left', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'top right'     => _x( 'Top Right', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'bottom center' => _x( 'Bottom Center', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'bottom left'   => _x( 'Bottom Left', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'bottom right'  => _x( 'Bottom Right', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				),
 				'default'   => 'center center',
 				'selectors' => array(
@@ -1297,22 +1297,22 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_overlay_hover',
 			array(
-				'label' => esc_html__( 'Hover', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Hover', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
 		$this->add_control(
 			'overlay_bg_hover',
 			array(
-				'label'       => _x( 'Background Type', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Background Type', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::CHOOSE,
 				'options'     => array(
 					'color'    => array(
-						'title' => _x( 'Classic', 'Background Control', 'jet-woo-widgets' ),
+						'title' => _x( 'Classic', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-paint-brush',
 					),
 					'gradient' => array(
-						'title' => _x( 'Gradient', 'Background Control', 'jet-woo-widgets' ),
+						'title' => _x( 'Gradient', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-barcode',
 					),
 				),
@@ -1325,10 +1325,10 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_color',
 			array(
-				'label'     => _x( 'Color', 'Background Control', 'jet-woo-widgets' ),
+				'label'     => _x( 'Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'default'   => 'transparent',
-				'title'     => _x( 'Background Color', 'Background Control', 'jet-woo-widgets' ),
+				'title'     => _x( 'Background Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['column'] . ':hover .jet-woo-category-img-overlay__hover' => 'background-color: {{VALUE}};',
 				),
@@ -1338,7 +1338,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_color_stop',
 			array(
-				'label'       => _x( 'Location', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Location', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::SLIDER,
 				'size_units'  => array( '%' ),
 				'default'     => array(
@@ -1356,7 +1356,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_color_b',
 			array(
-				'label'       => _x( 'Second Color', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Second Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::COLOR,
 				'default'     => '#f2295b',
 				'render_type' => 'ui',
@@ -1370,7 +1370,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_color_b_stop',
 			array(
-				'label'       => _x( 'Location', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Location', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::SLIDER,
 				'size_units'  => array( '%' ),
 				'default'     => array(
@@ -1388,11 +1388,11 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_gradient_type',
 			array(
-				'label'       => _x( 'Type', 'Background Control', 'jet-woo-widgets' ),
+				'label'       => _x( 'Type', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'        => Controls_Manager::SELECT,
 				'options'     => array(
-					'linear' => _x( 'Linear', 'Background Control', 'jet-woo-widgets' ),
-					'radial' => _x( 'Radial', 'Background Control', 'jet-woo-widgets' ),
+					'linear' => _x( 'Linear', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'radial' => _x( 'Radial', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				),
 				'default'     => 'linear',
 				'render_type' => 'ui',
@@ -1406,7 +1406,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_gradient_angle',
 			array(
-				'label'      => _x( 'Angle', 'Background Control', 'jet-woo-widgets' ),
+				'label'      => _x( 'Angle', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'deg' ),
 				'default'    => array(
@@ -1432,18 +1432,18 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'overlay_bg_hover_gradient_position',
 			array(
-				'label'     => _x( 'Position', 'Background Control', 'jet-woo-widgets' ),
+				'label'     => _x( 'Position', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'options'   => array(
-					'center center' => _x( 'Center Center', 'Background Control', 'jet-woo-widgets' ),
-					'center left'   => _x( 'Center Left', 'Background Control', 'jet-woo-widgets' ),
-					'center right'  => _x( 'Center Right', 'Background Control', 'jet-woo-widgets' ),
-					'top center'    => _x( 'Top Center', 'Background Control', 'jet-woo-widgets' ),
-					'top left'      => _x( 'Top Left', 'Background Control', 'jet-woo-widgets' ),
-					'top right'     => _x( 'Top Right', 'Background Control', 'jet-woo-widgets' ),
-					'bottom center' => _x( 'Bottom Center', 'Background Control', 'jet-woo-widgets' ),
-					'bottom left'   => _x( 'Bottom Left', 'Background Control', 'jet-woo-widgets' ),
-					'bottom right'  => _x( 'Bottom Right', 'Background Control', 'jet-woo-widgets' ),
+					'center center' => _x( 'Center Center', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'center left'   => _x( 'Center Left', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'center right'  => _x( 'Center Right', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'top center'    => _x( 'Top Center', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'top left'      => _x( 'Top Left', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'top right'     => _x( 'Top Right', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'bottom center' => _x( 'Bottom Center', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'bottom left'   => _x( 'Bottom Left', 'Background Control', 'jetwoo-widgets-for-elementor' ),
+					'bottom right'  => _x( 'Bottom Right', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				),
 				'default'   => 'center center',
 				'selectors' => array(
@@ -1470,7 +1470,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_prev',
 			array(
-				'label' => esc_html__( 'Normal', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Normal', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
@@ -1495,7 +1495,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_next_hover',
 			array(
-				'label' => esc_html__( 'Hover', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Hover', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
@@ -1522,7 +1522,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'prev_arrow_position',
 			array(
-				'label'     => esc_html__( 'Prev Arrow Position', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Prev Arrow Position', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			)
@@ -1531,12 +1531,12 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'prev_vert_position',
 			array(
-				'label'   => esc_html__( 'Vertical Postition by', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Vertical Postition by', 'jetwoo-widgets-for-elementor' ),
 				'type'    => Controls_Manager::SELECT,
 				'default' => 'top',
 				'options' => array(
-					'top'    => esc_html__( 'Top', 'jet-woo-widgets' ),
-					'bottom' => esc_html__( 'Bottom', 'jet-woo-widgets' ),
+					'top'    => esc_html__( 'Top', 'jetwoo-widgets-for-elementor' ),
+					'bottom' => esc_html__( 'Bottom', 'jetwoo-widgets-for-elementor' ),
 				),
 			)
 		);
@@ -1544,7 +1544,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'prev_top_position',
 			array(
-				'label'      => esc_html__( 'Top Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Top Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1573,7 +1573,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'prev_bottom_position',
 			array(
-				'label'      => esc_html__( 'Bottom Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Bottom Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1602,12 +1602,12 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'prev_hor_position',
 			array(
-				'label'   => esc_html__( 'Horizontal Position by', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Horizontal Position by', 'jetwoo-widgets-for-elementor' ),
 				'type'    => Controls_Manager::SELECT,
 				'default' => 'left',
 				'options' => array(
-					'left'  => esc_html__( 'Left', 'jet-woo-widgets' ),
-					'right' => esc_html__( 'Right', 'jet-woo-widgets' ),
+					'left'  => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
+					'right' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
 				),
 			)
 		);
@@ -1615,7 +1615,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'prev_left_position',
 			array(
-				'label'      => esc_html__( 'Left Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Left Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1644,7 +1644,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'prev_right_position',
 			array(
-				'label'      => esc_html__( 'Right Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Right Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1673,7 +1673,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'next_arrow_position',
 			array(
-				'label'     => esc_html__( 'Next Arrow Position', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Next Arrow Position', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			)
@@ -1682,12 +1682,12 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'next_vert_position',
 			array(
-				'label'   => esc_html__( 'Vertical Position by', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Vertical Position by', 'jetwoo-widgets-for-elementor' ),
 				'type'    => Controls_Manager::SELECT,
 				'default' => 'top',
 				'options' => array(
-					'top'    => esc_html__( 'Top', 'jet-woo-widgets' ),
-					'bottom' => esc_html__( 'Bottom', 'jet-woo-widgets' ),
+					'top'    => esc_html__( 'Top', 'jetwoo-widgets-for-elementor' ),
+					'bottom' => esc_html__( 'Bottom', 'jetwoo-widgets-for-elementor' ),
 				),
 			)
 		);
@@ -1695,7 +1695,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'next_top_position',
 			array(
-				'label'      => esc_html__( 'Top Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Top Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1724,7 +1724,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'next_bottom_position',
 			array(
-				'label'      => esc_html__( 'Bottom Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Bottom Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1753,12 +1753,12 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'next_hor_position',
 			array(
-				'label'   => esc_html__( 'Horizontal Postition by', 'jet-woo-widgets' ),
+				'label'   => esc_html__( 'Horizontal Postition by', 'jetwoo-widgets-for-elementor' ),
 				'type'    => Controls_Manager::SELECT,
 				'default' => 'right',
 				'options' => array(
-					'left'  => esc_html__( 'Left', 'jet-woo-widgets' ),
-					'right' => esc_html__( 'Right', 'jet-woo-widgets' ),
+					'left'  => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
+					'right' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
 				),
 			)
 		);
@@ -1766,7 +1766,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'next_left_position',
 			array(
-				'label'      => esc_html__( 'Left Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Left Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1795,7 +1795,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'next_right_position',
 			array(
-				'label'      => esc_html__( 'Right Indent', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Right Indent', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px', '%', 'em' ),
 				'range'      => array(
@@ -1830,7 +1830,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_dots_normal',
 			array(
-				'label' => esc_html__( 'Normal', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Normal', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
@@ -1855,7 +1855,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_dots_hover',
 			array(
-				'label' => esc_html__( 'Hover', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Hover', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
@@ -1880,7 +1880,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->start_controls_tab(
 			'tab_dots_active',
 			array(
-				'label' => esc_html__( 'Active', 'jet-woo-widgets' ),
+				'label' => esc_html__( 'Active', 'jetwoo-widgets-for-elementor' ),
 			)
 		);
 
@@ -1907,7 +1907,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'dots_gap',
 			array(
-				'label'     => esc_html__( 'Gap', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Gap', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::SLIDER,
 				'default'   => array(
 					'size' => 5,
@@ -1929,7 +1929,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_control(
 			'dots_margin',
 			array(
-				'label'      => esc_html__( 'Dots Box Margin', 'jet-woo-widgets' ),
+				'label'      => esc_html__( 'Dots Box Margin', 'jetwoo-widgets-for-elementor' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
@@ -1941,20 +1941,20 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		$this->add_responsive_control(
 			'dots_alignment',
 			array(
-				'label'     => esc_html__( 'Alignment', 'jet-woo-widgets' ),
+				'label'     => esc_html__( 'Alignment', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::CHOOSE,
 				'default'   => 'center',
 				'options'   => array(
 					'flex-start' => array(
-						'title' => esc_html__( 'Left', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-left',
 					),
 					'center'     => array(
-						'title' => esc_html__( 'Center', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-center',
 					),
 					'flex-end'   => array(
-						'title' => esc_html__( 'Right', 'jet-woo-widgets' ),
+						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
 						'icon'  => 'fa fa-align-right',
 					),
 				),
