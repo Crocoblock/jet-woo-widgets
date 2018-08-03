@@ -1,0 +1,28 @@
+.jet-woo-widgets-settings-page {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1200px) {
+  .jet-woo-widgets-settings-page {
+    flex-wrap: wrap;
+  }
+}
+
+.jet-woo-widgets-settings-page .jet_woo_widgets_settings {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.jet-woo-widgets-settings-page .jet-woo-widgets-banner {
+  flex-shrink: 0;
+  margin: 20px 20px 0 0;
+}
+
+.jet-woo-widgets-settings-page .jet-woo-widgets-banner__link {
+  display: block;
+}
+
+.jet-woo-widgets-settings-page .jet-woo-widgets-banner__img {
+  vertical-align: top;
+}

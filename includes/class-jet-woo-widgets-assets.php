@@ -29,6 +29,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Assets' ) ) {
 
 			add_action( 'elementor/frontend/before_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
 			add_action( 'elementor/frontend/after_enqueue_scripts', array( 'WC_Frontend_Scripts', 'localize_printed_scripts' ), 5 );
+			add_action( 'admin_enqueue_scripts',  array( $this, 'admin_enqueue_styles' ) );
 		}
 
 		/**
@@ -86,6 +87,24 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Assets' ) ) {
 				apply_filters( 'jet-woo-widgets/frontend/localize-data', array() )
 			);
 
+		}
+
+		/**
+		 * Enqueue admin styles
+		 *
+		 * @return void
+		 */
+		public function admin_enqueue_styles() {
+			$screen = get_current_screen();
+			// Jet setting page check
+			if ( 'elementor_page_jet-woo-widgets-settings' === $screen->base ) {
+				wp_enqueue_style(
+					'jet-widgets-admin-css',
+					jet_woo_widgets()->plugin_url( 'assets/css/jet-woo-widgets-admin.css' ),
+					false,
+					jet_woo_widgets()->get_version()
+				);
+			}
 		}
 
 		/**
