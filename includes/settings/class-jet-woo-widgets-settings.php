@@ -348,7 +348,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 		 */
 		public function render_banner_html() {
 			$html = '<div class="jet-woo-widgets-banner">
-						<a class="jet-woo-widgets-banner__link" href="https://crocoblock.com/" target="_blank">
+						<a class="jet-woo-widgets-banner__link" href="https://jetwoobuilder.zemez.io/?_refer=crocoblock&utm_source=wpadmin&utm_medium=banner&utm_campaign=jetwoowidgets" target="_blank">
 							<img class="jet-woo-widgets-banner__img" src="%1$s" alt="%2$s">
 						</a>
 					</div>';
