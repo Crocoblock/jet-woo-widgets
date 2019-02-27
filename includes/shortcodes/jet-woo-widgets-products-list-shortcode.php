@@ -190,7 +190,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			return array();
 		}
 
-		return wp_list_pluck( $categories, 'name', 'term_id' );
+		return wp_list_pluck( $categories, 'name', 'slug' );
 
 	}
 
@@ -207,7 +207,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 			return array();
 		}
 
-		return wp_list_pluck( $tags, 'name', 'term_id' );
+		return wp_list_pluck( $tags, 'name', 'slug' );
 
 	}
 
@@ -244,7 +244,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 				if ( '' !== $this->get_attr( 'products_cat' ) ) {
 					$query_args['tax_query'][] = array(
 						'taxonomy' => 'product_cat',
-						'field'    => 'term_taxonomy_id',
+						'field'    => 'slug',
 						'terms'    => explode( ',', $this->get_attr( 'products_cat' ) ),
 						'operator' => 'IN',
 					);
@@ -254,7 +254,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 				if ( '' !== $this->get_attr( 'products_tag' ) ) {
 					$query_args['tax_query'][] = array(
 						'taxonomy' => 'product_tag',
-						'field'    => 'term_taxonomy_id',
+						'field'    => 'slug',
 						'terms'    => explode( ',', $this->get_attr( 'products_tag' ) ),
 						'operator' => 'IN',
 					);
