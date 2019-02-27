@@ -20,7 +20,6 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 	 * @return array
 	 */
 	public function get_atts() {
-
 		$columns = jet_woo_widgets_tools()->get_select_range( 6 );
 
 		return apply_filters( 'jet-woo-widgets/shortcodes/jet-woo-categories/atts', array(
@@ -98,7 +97,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'return_value' => 'yes',
 				'default'      => '',
 				'condition'    => array(
-					'show_by' => array( 'all', 'cat_ids' ),
+					'show_by' => array( 'all', 'category' ),
 				),
 			),
 			'hide_default_cat'   => array(
@@ -119,7 +118,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'options' => array(
 					'all'        => esc_html__( 'All', 'jetwoo-widgets-for-elementor' ),
 					'parent_cat' => esc_html__( 'Parent Category', 'jetwoo-widgets-for-elementor' ),
-					'cat_ids'    => esc_html__( 'Categories IDs', 'jetwoo-widgets-for-elementor' ),
+					'categories'    => esc_html__( 'Categories', 'jetwoo-widgets-for-elementor' ),
 				),
 			),
 			'parent_cat_ids'     => array(
@@ -130,12 +129,14 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 					'show_by' => array( 'parent_cat' ),
 				),
 			),
-			'cat_ids'            => array(
-				'type'      => 'text',
-				'label'     => esc_html__( 'Set comma seprated IDs list (10, 22, 19 etc.)', 'jetwoo-widgets-for-elementor' ),
+			'categories'            => array(
+				'type'      => 'select2',
+				'label'     => esc_html__( 'Selected category', 'jetwoo-widgets-for-elementor' ),
 				'default'   => '',
+				'multiple'   => true,
+				'options'   => jet_woo_widgets_tools()->get_terms_array( array( 'product_cat' ) ),
 				'condition' => array(
-					'show_by' => array( 'cat_ids' ),
+					'show_by' => array( 'categories' ),
 				),
 			),
 			'order'              => array(
@@ -255,8 +256,10 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 			case 'parent_cat':
 				$cat_args['child_of'] = $this->get_attr( 'parent_cat_ids' );
 				break;
-			case 'cat_ids' :
-				$cat_args['include'] = $this->get_attr( 'cat_ids' );
+			case 'categories' :
+				$categories = $this->get_attr( 'categories' );
+				$cat_args['slug'] = $categories ? explode( ',', $categories ) : '' ;
+
 				break;
 			default:
 				break;

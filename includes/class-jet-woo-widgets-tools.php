@@ -109,8 +109,39 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 				return array();
 			}
 
-			return wp_list_pluck( $categories, 'name', 'term_id' );
+			return wp_list_pluck( $categories, 'name', 'slug' );
 
+		}
+
+		/**
+		 * Return post terms.
+		 *
+		 * @since  1.0.0
+		 * @param [type] $tax - category, post_tag, post_format.
+		 * @param [type] $return_key - slug, term_id.
+		 * @return array
+		 */
+		public function get_terms_array( $tax = array( 'category' ), $return_key = 'slug' ) {
+			$terms = array();
+			$tax = is_array( $tax ) ? $tax : array( $tax ) ;
+
+			foreach ( $tax as $key => $value ) {
+				if ( ! taxonomy_exists( $value ) ) {
+					unset( $tax[ $key ] );
+				}
+			}
+			$all_terms = (array) get_terms( $tax, array(
+				'hide_empty'   => 0,
+				'hierarchical' => 0,
+			) );
+
+			if ( empty( $all_terms ) || is_wp_error( $all_terms ) ) {
+				return '';
+			}
+			foreach ( $all_terms as $term ) {
+				$terms[ $term->$return_key ] = $term->name;
+			}
+			return $terms;
 		}
 
 		/**
