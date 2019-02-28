@@ -118,7 +118,8 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'options' => array(
 					'all'        => esc_html__( 'All', 'jetwoo-widgets-for-elementor' ),
 					'parent_cat' => esc_html__( 'Parent Category', 'jetwoo-widgets-for-elementor' ),
-					'categories'    => esc_html__( 'Categories', 'jetwoo-widgets-for-elementor' ),
+					'cat_ids'    => esc_html__( 'Categories IDs', 'jetwoo-widgets-for-elementor' ),
+					'categories' => esc_html__( 'Categories', 'jetwoo-widgets-for-elementor' ),
 				),
 			),
 			'parent_cat_ids'     => array(
@@ -127,6 +128,14 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'default'   => '',
 				'condition' => array(
 					'show_by' => array( 'parent_cat' ),
+				),
+			),
+			'cat_ids'            => array(
+				'type'      => 'text',
+				'label'     => esc_html__( 'Set comma seprated IDs list (10, 22, 19 etc.)', 'jetwoo-widgets-for-elementor' ),
+				'default'   => '',
+				'condition' => array(
+					'show_by' => array( 'cat_ids' ),
 				),
 			),
 			'categories'            => array(
@@ -255,6 +264,9 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 		switch ( $this->get_attr( 'show_by' ) ) {
 			case 'parent_cat':
 				$cat_args['child_of'] = $this->get_attr( 'parent_cat_ids' );
+				break;
+			case 'cat_ids' :
+				$cat_args['include'] = $this->get_attr( 'cat_ids' );
 				break;
 			case 'categories' :
 				$categories = $this->get_attr( 'categories' );
