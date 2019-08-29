@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JetWooWidgets for Elementor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-02 10:41+0300\n"
+"POT-Creation-Date: 2019-08-29 16:48+0300\n"
 "PO-Revision-Date: 2018-05-18 18:31+0200\n"
 "Language-Team: Crocoblock\n"
 "Language: en_US\n"
@@ -14,8 +14,9 @@ msgstr ""
 "esc_attr__;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: cherry-framework\n"
 "X-Poedit-SearchPathExcluded-1: node_modules\n"
@@ -24,7 +25,7 @@ msgstr ""
 msgid "Full"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:147
+#: includes/class-jet-woo-widgets-tools.php:178
 #: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:209
 #: includes/widgets/global/jet-woo-widgets-products-list.php:823
 #: includes/widgets/global/jet-woo-widgets-products-list.php:900
@@ -37,15 +38,15 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:148
+#: includes/class-jet-woo-widgets-tools.php:179
 msgid "ID"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:149
+#: includes/class-jet-woo-widgets-tools.php:180
 msgid "Author"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:150
+#: includes/class-jet-woo-widgets-tools.php:181
 #: includes/widgets/global/jet-woo-widgets-categories.php:346
 #: includes/widgets/global/jet-woo-widgets-categories.php:515
 #: includes/widgets/global/jet-woo-widgets-products-list.php:134
@@ -53,47 +54,47 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:151
+#: includes/class-jet-woo-widgets-tools.php:182
 msgid "Name (slug)"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:152
+#: includes/class-jet-woo-widgets-tools.php:183
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:90
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:132
 msgid "Date"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:153
+#: includes/class-jet-woo-widgets-tools.php:184
 msgid "Modified"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:154
+#: includes/class-jet-woo-widgets-tools.php:185
 msgid "Rand"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:155
+#: includes/class-jet-woo-widgets-tools.php:186
 msgid "Comment Count"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:156
+#: includes/class-jet-woo-widgets-tools.php:187
 msgid "Menu Order"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:168
+#: includes/class-jet-woo-widgets-tools.php:199
 msgid "Descending"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:169
+#: includes/class-jet-woo-widgets-tools.php:200
 msgid "Ascending"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:181
+#: includes/class-jet-woo-widgets-tools.php:212
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1024
 #: includes/widgets/global/jet-woo-widgets-products.php:1189
 msgid "Baseline"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:182
+#: includes/class-jet-woo-widgets-tools.php:213
 #: includes/widgets/global/jet-woo-widgets-categories.php:1538
 #: includes/widgets/global/jet-woo-widgets-categories.php:1689
 #: includes/widgets/global/jet-woo-widgets-products-list.php:229
@@ -104,13 +105,13 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:183
+#: includes/class-jet-woo-widgets-tools.php:214
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1026
 #: includes/widgets/global/jet-woo-widgets-products.php:1191
 msgid "Middle"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:184
+#: includes/class-jet-woo-widgets-tools.php:215
 #: includes/widgets/global/jet-woo-widgets-categories.php:1539
 #: includes/widgets/global/jet-woo-widgets-categories.php:1690
 #: includes/widgets/global/jet-woo-widgets-products-list.php:231
@@ -121,72 +122,72 @@ msgstr ""
 msgid "Bottom"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:185
+#: includes/class-jet-woo-widgets-tools.php:216
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1028
 #: includes/widgets/global/jet-woo-widgets-products.php:1193
 msgid "Sub"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:186
+#: includes/class-jet-woo-widgets-tools.php:217
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1029
 #: includes/widgets/global/jet-woo-widgets-products.php:1194
 msgid "Super"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:187
+#: includes/class-jet-woo-widgets-tools.php:218
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1030
 #: includes/widgets/global/jet-woo-widgets-products.php:1195
 msgid "Text Top"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:188
+#: includes/class-jet-woo-widgets-tools.php:219
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1031
 #: includes/widgets/global/jet-woo-widgets-products.php:1196
 msgid "Text Bottom"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:322
-#: includes/class-jet-woo-widgets-tools.php:345
+#: includes/class-jet-woo-widgets-tools.php:353
+#: includes/class-jet-woo-widgets-tools.php:376
 msgid "Angle"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:323
-#: includes/class-jet-woo-widgets-tools.php:346
+#: includes/class-jet-woo-widgets-tools.php:354
+#: includes/class-jet-woo-widgets-tools.php:377
 msgid "Chevron"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:324
-#: includes/class-jet-woo-widgets-tools.php:347
+#: includes/class-jet-woo-widgets-tools.php:355
+#: includes/class-jet-woo-widgets-tools.php:378
 msgid "Angle Double"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:325
-#: includes/class-jet-woo-widgets-tools.php:348
+#: includes/class-jet-woo-widgets-tools.php:356
+#: includes/class-jet-woo-widgets-tools.php:379
 msgid "Arrow"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:326
-#: includes/class-jet-woo-widgets-tools.php:349
+#: includes/class-jet-woo-widgets-tools.php:357
+#: includes/class-jet-woo-widgets-tools.php:380
 msgid "Caret"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:327
-#: includes/class-jet-woo-widgets-tools.php:350
+#: includes/class-jet-woo-widgets-tools.php:358
+#: includes/class-jet-woo-widgets-tools.php:381
 msgid "Long Arrow"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:328
-#: includes/class-jet-woo-widgets-tools.php:351
+#: includes/class-jet-woo-widgets-tools.php:359
+#: includes/class-jet-woo-widgets-tools.php:382
 msgid "Arrow Circle"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:329
-#: includes/class-jet-woo-widgets-tools.php:352
+#: includes/class-jet-woo-widgets-tools.php:360
+#: includes/class-jet-woo-widgets-tools.php:383
 msgid "Chevron Circle"
 msgstr ""
 
-#: includes/class-jet-woo-widgets-tools.php:330
-#: includes/class-jet-woo-widgets-tools.php:353
+#: includes/class-jet-woo-widgets-tools.php:361
+#: includes/class-jet-woo-widgets-tools.php:384
 msgid "Caret Square"
 msgstr ""
 
@@ -498,14 +499,14 @@ msgid "Box Shadow"
 msgstr ""
 
 #: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:255
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:55
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:63
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:71
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:88
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:96
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:107
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:170
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:178
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:54
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:62
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:70
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:87
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:95
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:106
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:180
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:188
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:100
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:118
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:135
@@ -541,14 +542,14 @@ msgid "Yes"
 msgstr ""
 
 #: includes/controls/groups/class-jet-woo-widgets-group-control-box-style.php:256
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:56
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:64
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:72
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:89
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:97
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:108
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:171
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:179
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:55
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:63
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:71
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:88
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:96
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:107
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:181
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:189
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:101
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:119
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:136
@@ -1020,76 +1021,80 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:29
+#: includes/settings/class-jet-woo-widgets-settings.php:355
+msgid "Crocoblock"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:28
 msgid "Category Presets"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:32
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:31
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:32
 msgid "Preset 1"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:33
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:32
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:33
 msgid "Preset 2"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:34
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:33
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:34
 msgid "Preset 3"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:35
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:34
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:35
 msgid "Preset 4"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:36
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:35
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:36
 msgid "Preset 5"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:42
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:41
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:42
 msgid "Columns"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:53
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:52
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:53
 msgid "Equal Columns Height"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:62
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:61
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:62
 msgid "Add gap between columns"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:70
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:69
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:70
 msgid "Add gap between rows"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:78
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:77
 msgid "Categories Number"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:87
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:86
 msgid "Hide Empty"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:95
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:94
 msgid "Hide Subcategories"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:106
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:105
 msgid "Hide Uncategorized"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:117
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:116
 msgid "Show by"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:120
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:119
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:48
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:90
 #: includes/widgets/global/jet-woo-widgets-products-list.php:1127
@@ -1097,12 +1102,18 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:121
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:120
 msgid "Parent Category"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:122
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:121
 msgid "Categories IDs"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:122
+#: includes/widgets/global/jet-woo-widgets-products-list.php:147
+#: includes/widgets/global/jet-woo-widgets-products.php:388
+msgid "Categories"
 msgstr ""
 
 #: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:127
@@ -1114,72 +1125,76 @@ msgid "Set comma seprated IDs list (10, 22, 19 etc.)"
 msgstr ""
 
 #: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:143
+msgid "Selected category"
+msgstr ""
+
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:153
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:87
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:129
 msgid "Order by"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:146
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:156
 msgid "ASC"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:147
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:157
 msgid "DESC"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:152
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:162
 msgid "Sort by"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:155
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:165
 msgid "Name"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:156
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:166
 msgid "IDs"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:157
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:167
 #: includes/widgets/global/jet-woo-widgets-categories.php:359
 #: includes/widgets/global/jet-woo-widgets-categories.php:563
 msgid "Count"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:162
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:172
 #: includes/shortcodes/jet-woo-widgets-products-list-shortcode.php:125
 #: includes/shortcodes/jet-woo-widgets-products-shortcode.php:159
 msgid "Featured Image Size"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:169
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:179
 msgid "Show Categories Title"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:177
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:187
 msgid "Show Products Count"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:185
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:195
 msgid "Count Before Text"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:193
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:203
 msgid "Count After Text"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:201
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:211
 msgid "Description Words Count"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:202
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:212
 msgid "Input -1 to show all description and 0 to hide"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:208
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:218
 msgid "Trimmed After Text"
 msgstr ""
 
-#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:283
+#: includes/shortcodes/jet-woo-widgets-categories-shortcode.php:298
 msgid "Categories not found"
 msgstr ""
 
@@ -1810,11 +1825,6 @@ msgstr ""
 #: includes/widgets/global/jet-woo-widgets-products-list.php:108
 #: includes/widgets/global/jet-woo-widgets-products.php:310
 msgid "Product Thumbnail"
-msgstr ""
-
-#: includes/widgets/global/jet-woo-widgets-products-list.php:147
-#: includes/widgets/global/jet-woo-widgets-products.php:388
-msgid "Categories"
 msgstr ""
 
 #: includes/widgets/global/jet-woo-widgets-products-list.php:173
