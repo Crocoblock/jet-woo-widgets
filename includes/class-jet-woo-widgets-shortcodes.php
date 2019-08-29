@@ -2,7 +2,7 @@
 /**
  * Class description
  *
- * @package   Jet Woo Widgets
+ * @package   JetWoo Widgets
  * @author    Zemez
  * @license   GPL-2.0+
  */

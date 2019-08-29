@@ -188,8 +188,8 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 
 			add_submenu_page(
 				'elementor',
-				esc_html__( 'Jet Woo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
-				esc_html__( 'Jet Woo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
+				esc_html__( 'JetWoo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
+				esc_html__( 'JetWoo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
 				'manage_options',
 				$this->key,
 				array( $this, 'render_page' )
@@ -213,7 +213,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 					'jet_woo_widgets_settings' => array(
 						'type'   => 'section',
 						'scroll' => false,
-						'title'  => esc_html__( 'Jet Woo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
+						'title'  => esc_html__( 'JetWoo Widgets Settings', 'jetwoo-widgets-for-elementor' ),
 					),
 				)
 			);
@@ -348,11 +348,11 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 		 */
 		public function render_banner_html() {
 			$html = '<div class="jet-woo-widgets-banner">
-						<a class="jet-woo-widgets-banner__link" href="https://jetwoobuilder.zemez.io/?_refer=crocoblock&utm_source=wpadmin&utm_medium=banner&utm_campaign=jetwoowidgets" target="_blank">
+						<a class="jet-woo-widgets-banner__link" href="https://crocoblock.com/plugins/jetwoobuilder/?_refer=crocoblock&utm_source=wpadmin&utm_medium=banner&utm_campaign=jetwoowidgets" target="_blank">
 							<img class="jet-woo-widgets-banner__img" src="%1$s" alt="%2$s">
 						</a>
 					</div>';
-			printf( $html, jet_woo_widgets()->plugin_url( 'assets/images/banner.png' ), esc_attr__( 'CrocoBlock', 'jetwoo-widgets-for-elementor' ) );
+			printf( $html, jet_woo_widgets()->plugin_url( 'assets/images/banner.png' ), esc_attr__( 'Crocoblock', 'jetwoo-widgets-for-elementor' ) );
 		}
 
 		/**

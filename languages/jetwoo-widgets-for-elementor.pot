@@ -1,11 +1,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Jet WooWidgets for Elementor\n"
+"Project-Id-Version: JetWooWidgets for Elementor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-02 10:41+0300\n"
 "PO-Revision-Date: 2018-05-18 18:31+0200\n"
-"Language-Team: CrocoBlock\n"
+"Language-Team: Crocoblock\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -599,7 +599,7 @@ msgid "Inset"
 msgstr ""
 
 #: includes/integrations/base/class-jet-woo-widgets-integration.php:193
-msgid "Jet Woo Widgets"
+msgid "JetWoo Widgets"
 msgstr ""
 
 #: includes/lib/class-tgm-plugin-activation.php:334
@@ -959,7 +959,7 @@ msgstr ""
 #: includes/settings/class-jet-woo-widgets-settings.php:191
 #: includes/settings/class-jet-woo-widgets-settings.php:192
 #: includes/settings/class-jet-woo-widgets-settings.php:216
-msgid "Jet Woo Widgets Settings"
+msgid "JetWoo Widgets Settings"
 msgstr ""
 
 #: includes/settings/class-jet-woo-widgets-settings.php:260

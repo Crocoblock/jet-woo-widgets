@@ -2,8 +2,8 @@
 /**
  * Plugin Name: JetWoo Widgets For Elementor
  * Description: Set of modules for WooCommerce based on Elementor Page Builder
- * Version:     1.1.1
- * Author:      CrocoBlock
+ * Version:     1.1.2
+ * Author:      Crocoblock
  * Author URI:  https://crocoblock.com/
  * Text Domain: jetwoo-widgets-for-elementor
  * License: GPLv3 or later
@@ -47,7 +47,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 		 *
 		 * @var string
 		 */
-		private $version = '1.1.1';
+		private $version = '1.1.2';
 
 		/**
 		 * Framework loader instance
@@ -181,13 +181,13 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 				'is_automatic' => false,
 				'strings'      => array(
 					'notice_can_install_required'     => _n_noop(
-						'Jet Woo Widgets for Elementor requires the following plugin: %1$s.',
-						'Jet Woo Widgets for Elementor requires the following plugins: %1$s.',
+						'JetWoo Widgets for Elementor requires the following plugin: %1$s.',
+						'JetWoo Widgets for Elementor requires the following plugins: %1$s.',
 						'jetwoo-widgets-for-elementor'
 					),
 					'notice_can_install_recommended'  => _n_noop(
-						'Jet Woo Widgets for Elementor recommends the following plugin: %1$s.',
-						'Jet Woo Widgets for Elementor recommends the following plugins: %1$s.',
+						'JetWoo Widgets for Elementor recommends the following plugin: %1$s.',
+						'JetWoo Widgets for Elementor recommends the following plugins: %1$s.',
 						'jetwoo-widgets-for-elementor'
 					),
 				),

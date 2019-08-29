@@ -190,7 +190,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Integration' ) ) {
 			$elements_manager->add_category(
 				$jet_woo_widgets_cat,
 				array(
-					'title' => esc_html__( 'Jet Woo Widgets', 'jetwoo-widgets-for-elementor' ),
+					'title' => esc_html__( 'JetWoo Widgets', 'jetwoo-widgets-for-elementor' ),
 					'icon'  => 'font',
 				),
 				2
