@@ -118,7 +118,6 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 			'slides_min_height',
 			array(
 				'label'       => esc_html__( 'Slides Minimal Height', 'jetwoo-widgets-for-elementor' ),
-				'label_block' => true,
 				'type'        => Controls_Manager::NUMBER,
 				'default'     => '',
 				'selectors'   => array(
