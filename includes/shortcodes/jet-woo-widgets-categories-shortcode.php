@@ -139,12 +139,13 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				),
 			),
 			'categories'            => array(
-				'type'      => 'select2',
-				'label'     => esc_html__( 'Selected category', 'jetwoo-widgets-for-elementor' ),
-				'default'   => '',
-				'multiple'   => true,
-				'options'   => jet_woo_widgets_tools()->get_terms_array( array( 'product_cat' ) ),
-				'condition' => array(
+				'type'        => 'select2',
+				'label'       => esc_html__( 'Selected category', 'jetwoo-widgets-for-elementor' ),
+				'default'     => '',
+				'label_block' => true,
+				'multiple'    => true,
+				'options'     => jet_woo_widgets_tools()->get_terms_array( array( 'product_cat' ) ),
+				'condition'   => array(
 					'show_by' => array( 'categories' ),
 				),
 			),

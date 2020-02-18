@@ -105,22 +105,24 @@ class Jet_Woo_Widgets_Products_Shortcode extends Jet_Woo_Widgets_Shortcode_Base 
 				),
 			),
 			'products_cat'          => array(
-				'type'      => 'select2',
-				'label'     => esc_html__( 'Category', 'jetwoo-widgets-for-elementor' ),
-				'default'   => '',
-				'multiple'  => true,
-				'options'   => $this->get_product_categories(),
-				'condition' => array(
+				'type'        => 'select2',
+				'label'       => esc_html__( 'Category', 'jetwoo-widgets-for-elementor' ),
+				'default'     => '',
+				'multiple'    => true,
+				'label_block' => true,
+				'options'     => $this->get_product_categories(),
+				'condition'   => array(
 					'products_query' => array( 'category' ),
 				),
 			),
 			'products_tag'          => array(
-				'type'      => 'select2',
-				'label'     => esc_html__( 'Tag', 'jetwoo-widgets-for-elementor' ),
-				'default'   => '',
-				'multiple'  => true,
-				'options'   => $this->get_product_tags(),
-				'condition' => array(
+				'type'        => 'select2',
+				'label'       => esc_html__( 'Tag', 'jetwoo-widgets-for-elementor' ),
+				'default'     => '',
+				'multiple'    => true,
+				'label_block' => true,
+				'options'     => $this->get_product_tags(),
+				'condition'   => array(
 					'products_query' => array( 'tag' ),
 				),
 			),
