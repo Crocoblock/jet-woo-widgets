@@ -120,15 +120,15 @@ if ( ! class_exists( 'Jet_Woo_Widgets_CX_Loader' ) ) {
 
 					$dir = pathinfo( $path, PATHINFO_DIRNAME );
 
+					$url = str_replace(
+						'\\',
+						'/',
+						str_replace( wp_normalize_path( WP_CONTENT_DIR ), content_url(), wp_normalize_path( $dir ) )
+					);
+
 					$this->included_modules[ $slug ] = array(
 						'path' => trailingslashit( $dir ),
-						'url'  => trailingslashit(
-							str_replace(
-								'\\',
-								'/',
-								str_replace( untrailingslashit( ABSPATH ), esc_url( home_url() ), $dir )
-							)
-						),
+						'url'  => apply_filters( 'cx_include_module_url', trailingslashit( $url ), $path ),
 					);
 
 					require_once $path;
