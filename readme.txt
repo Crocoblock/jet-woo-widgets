@@ -3,7 +3,7 @@
 Contributors: Crocoblock
 Tags: elementor, products list, product grid, products carousel, online store, elementor builder, elements, addons, elementor addon, elementor widget, page builder, builder, visual editor, wordpress page builder, products, categories, shop
 Requires at least: 4.7
-Tested up to: 5.2.2
+Tested up to: 5.6
 Stable tag: 1.1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
