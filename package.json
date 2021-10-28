@@ -1,0 +1,27 @@
+{
+  "name": "jet-woo-widgets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crocoblock/jet-woo-widgets.git"
+  },
+  "author": "Crocoblock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crocoblock/jet-woo-widgets/issues"
+  },
+  "homepage": "https://github.com/Crocoblock/jet-woo-widgets#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

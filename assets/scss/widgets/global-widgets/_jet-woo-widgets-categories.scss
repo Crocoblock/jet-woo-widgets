@@ -207,15 +207,7 @@
 			display: flex;
 			flex-direction: column;
 			
-			.jet-categories__inner-box {
-				display: flex;
-				flex-direction: column;
-				flex-grow: 1;
-				width: 100%;
-				box-sizing: border-box;
-			}
-			
-			.jet-woo-categories__inner-content {
+			.jet-woo-categories__inner-box {
 				flex-grow: 1;
 			}
 		}

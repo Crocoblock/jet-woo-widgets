@@ -1,13 +1,6 @@
 <?php
 
 use Elementor\Controls_Manager;
-use Elementor\Group_Control_Border;
-use Elementor\Group_Control_Box_Shadow;
-use Elementor\Group_Control_Typography;
-use Elementor\Repeater;
-use Elementor\Scheme_Color;
-use Elementor\Scheme_Typography;
-use Elementor\Widget_Base;
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
@@ -29,11 +22,11 @@ class Jet_Woo_Widgets_Group_Control_Box_Style extends Elementor\Group_Control_Ba
 			'options'     => array(
 				'color' => array(
 					'title' => _x( 'Classic', 'Background Control', 'jetwoo-widgets-for-elementor' ),
-					'icon'  => 'fa fa-paint-brush',
+					'icon'  => 'eicon-paint-brush',
 				),
 				'gradient' => array(
 					'title' => _x( 'Gradient', 'Background Control', 'jetwoo-widgets-for-elementor' ),
-					'icon'  => 'fa fa-barcode',
+					'icon'  => 'eicon-barcode',
 				),
 			),
 			'label_block' => false,

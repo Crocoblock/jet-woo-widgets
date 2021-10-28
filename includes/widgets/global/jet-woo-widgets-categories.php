@@ -11,11 +11,8 @@ use Elementor\Controls_Manager;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Typography;
-use Elementor\Repeater;
-use Elementor\Scheme_Color;
-use Elementor\Scheme_Typography;
-use Elementor\Widget_Base;
-use Elementor\Utils;
+use Elementor\Core\Schemes\Color as Scheme_Color;
+use Elementor\Core\Schemes\Typography as Scheme_Typography;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -854,21 +851,22 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'options'   => array(
 					'left'   => array(
 						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-left',
+						'icon'  => 'eicon-text-align-left',
 					),
 					'center' => array(
 						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-center',
+						'icon'  => 'eicon-text-align-center',
 					),
 					'right'  => array(
 						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-right',
+						'icon'  => 'eicon-text-align-right',
 					),
 				),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['title']      => 'text-align: {{VALUE}};',
 					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'text-align: {{VALUE}};',
 				),
+				'classes'   => 'elementor-control-align',
 				'separator' => 'before'
 			)
 		);
@@ -992,20 +990,21 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'options'   => array(
 					'left'   => array(
 						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-left',
+						'icon'  => 'eicon-text-align-left',
 					),
 					'center' => array(
 						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-center',
+						'icon'  => 'eicon-text-align-center',
 					),
 					'right'  => array(
 						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-right',
+						'icon'  => 'eicon-text-align-right',
 					),
 				),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['count-wrap'] => 'text-align: {{VALUE}};',
 				),
+				'classes'   => 'elementor-control-align',
 				'condition' => array(
 					'presets!' => array( 'preset-3' )
 				),
@@ -1080,17 +1079,18 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'options'   => array(
 					'left'   => array(
 						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-left',
+						'icon'  => 'eicon-text-align-left',
 					),
 					'center' => array(
 						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-center',
+						'icon'  => 'eicon-text-align-center',
 					),
 					'right'  => array(
 						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-right',
+						'icon'  => 'eicon-text-align-right',
 					),
 				),
+				'classes'   => 'elementor-control-align',
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['excerpt'] => 'text-align: {{VALUE}};',
 				),
@@ -1143,11 +1143,11 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'options'     => array(
 					'color'    => array(
 						'title' => _x( 'Classic', 'Background Control', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-paint-brush',
+						'icon'  => 'eicon-paint-brush',
 					),
 					'gradient' => array(
 						'title' => _x( 'Gradient', 'Background Control', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-barcode',
+						'icon'  => 'eicon-barcode',
 					),
 				),
 				'default'     => 'color',
@@ -1308,11 +1308,11 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'options'     => array(
 					'color'    => array(
 						'title' => _x( 'Classic', 'Background Control', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-paint-brush',
+						'icon'  => 'eicon-paint-brush',
 					),
 					'gradient' => array(
 						'title' => _x( 'Gradient', 'Background Control', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-barcode',
+						'icon'  => 'eicon-barcode',
 					),
 				),
 				'default'     => 'color',
@@ -1946,17 +1946,18 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'options'   => array(
 					'flex-start' => array(
 						'title' => esc_html__( 'Left', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-left',
+						'icon'  => 'eicon-text-align-left',
 					),
 					'center'     => array(
 						'title' => esc_html__( 'Center', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-center',
+						'icon'  => 'eicon-text-align-center',
 					),
 					'flex-end'   => array(
 						'title' => esc_html__( 'Right', 'jetwoo-widgets-for-elementor' ),
-						'icon'  => 'fa fa-align-right',
+						'icon'  => 'eicon-text-align-right',
 					),
 				),
+				'classes'   => 'elementor-control-align',
 				'selectors' => array(
 					'{{WRAPPER}} .jet-woo-carousel .jet-slick-dots' => 'justify-content: {{VALUE}};',
 				),

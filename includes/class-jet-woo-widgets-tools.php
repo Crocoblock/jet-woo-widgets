@@ -449,7 +449,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 		 * @since  1.0.0
 		 * @return string
 		 */
-		public function trim_text( $text = '', $length = -1, $trimmed_type = 'word', $after ) {
+		public function trim_text( $text = '', $length = -1, $trimmed_type = 'word', $after='' ) {
 
 			if( '' === $text ){
 				return $text;

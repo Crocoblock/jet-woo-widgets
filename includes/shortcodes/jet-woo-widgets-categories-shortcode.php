@@ -23,7 +23,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 		$columns = jet_woo_widgets_tools()->get_select_range( 6 );
 
 		return apply_filters( 'jet-woo-widgets/shortcodes/jet-woo-categories/atts', array(
-			'presets'             => array(
+			'presets'            => array(
 				'type'    => 'select',
 				'label'   => esc_html__( 'Category Presets', 'jetwoo-widgets-for-elementor' ),
 				'default' => 'preset-1',
@@ -36,17 +36,13 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				),
 			),
 			'columns'            => array(
-				'type'       => 'select',
-				'responsive' => true,
-				'label'      => esc_html__( 'Columns', 'jetwoo-widgets-for-elementor' ),
-				'default'    => 3,
-				'options'    => $columns,
-			),
-			'columns_tablet'     => array(
-				'default' => 2,
-			),
-			'columns_mobile'     => array(
-				'default' => 1,
+				'type'            => 'select',
+				'responsive'      => true,
+				'label'           => esc_html__( 'Columns', 'jetwoo-widgets-for-elementor' ),
+				'desktop_default' => 3,
+				'tablet_default'  => 2,
+				'mobile_default'  => 1,
+				'options'         => $columns,
 			),
 			'equal_height_cols'  => array(
 				'label'        => esc_html__( 'Equal Columns Height', 'jetwoo-widgets-for-elementor' ),
@@ -76,10 +72,10 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'type'      => 'number',
 				'label'     => esc_html__( 'Categories Number', 'jetwoo-widgets-for-elementor' ),
 				'default'   => 3,
-				'min'       => - 1,
+				'min'       => -1,
 				'max'       => 30,
 				'step'      => 1,
-				'separator' => 'before'
+				'separator' => 'before',
 			),
 			'hide_empty'         => array(
 				'type'         => 'switcher',
@@ -131,14 +127,15 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				),
 			),
 			'cat_ids'            => array(
-				'type'      => 'text',
-				'label'     => esc_html__( 'Set comma seprated IDs list (10, 22, 19 etc.)', 'jetwoo-widgets-for-elementor' ),
-				'default'   => '',
-				'condition' => array(
+				'type'        => 'text',
+				'label'       => esc_html__( 'Set comma seprated IDs list (10, 22, 19 etc.)', 'jetwoo-widgets-for-elementor' ),
+				'default'     => '',
+				'label_block' => true,
+				'condition'   => array(
 					'show_by' => array( 'cat_ids' ),
 				),
 			),
-			'categories'            => array(
+			'categories'         => array(
 				'type'        => 'select2',
 				'label'       => esc_html__( 'Selected category', 'jetwoo-widgets-for-elementor' ),
 				'default'     => '',
@@ -173,7 +170,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'label'     => esc_html__( 'Featured Image Size', 'jetwoo-widgets-for-elementor' ),
 				'default'   => 'woocommerce_thumbnail',
 				'options'   => jet_woo_widgets_tools()->get_image_sizes(),
-				'separator' => 'before'
+				'separator' => 'before',
 			),
 			'show_title'         => array(
 				'type'         => 'switcher',
@@ -208,16 +205,16 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				),
 			),
 			'desc_length'        => array(
-				'type'      => 'number',
-				'label'     => esc_html__( 'Description Words Count', 'jetwoo-widgets-for-elementor' ),
-				'description'     => esc_html__( 'Input -1 to show all description and 0 to hide', 'jetwoo-widgets-for-elementor' ),
-				'min' => -1,
-				'default'   => 10,
+				'type'        => 'number',
+				'label'       => esc_html__( 'Description Words Count', 'jetwoo-widgets-for-elementor' ),
+				'description' => esc_html__( 'Input -1 to show all description and 0 to hide', 'jetwoo-widgets-for-elementor' ),
+				'min'         => -1,
+				'default'     => 10,
 			),
 			'desc_after_text'    => array(
-				'type'      => 'text',
-				'label'     => esc_html__( 'Trimmed After Text', 'jetwoo-widgets-for-elementor' ),
-				'default'   => '...',
+				'type'    => 'text',
+				'label'   => esc_html__( 'Trimmed After Text', 'jetwoo-widgets-for-elementor' ),
+				'default' => '...',
 			),
 		) );
 	}
@@ -243,7 +240,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 			'jet-woo-widgets/shortcodes/jet-woo-categories/query-args',
 			array(
 				'post_status'  => 'publish',
-				'hierarchical' => 1
+				'hierarchical' => 1,
 			)
 		);
 
@@ -270,8 +267,8 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				$cat_args['include'] = $this->get_attr( 'cat_ids' );
 				break;
 			case 'categories' :
-				$categories = $this->get_attr( 'categories' );
-				$cat_args['slug'] = $categories ? explode( ',', $categories ) : '' ;
+				$categories       = $this->get_attr( 'categories' );
+				$cat_args['slug'] = $categories ? explode( ',', $categories ) : '';
 
 				break;
 			default:
@@ -288,7 +285,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 	/**
 	 * Categories shortocde function
 	 *
-	 * @param  array $atts Attributes array.
+	 * @param array $atts Attributes array.
 	 *
 	 * @return string
 	 */
