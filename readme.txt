@@ -1,4 +1,4 @@
-=== JetWoo Widgets For Elementor ===
+=== JetWidgets for Elementor and WooCommerce ===
 
 Contributors: Crocoblock
 Tags: elementor, products list, product grid, products carousel, online store, elementor builder, elements, addons, elementor addon, elementor widget, page builder, builder, visual editor, wordpress page builder, products, categories, shop
@@ -8,7 +8,7 @@ Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-JetWooBuilder is a plugin that allows adding WooCommerce Products and Categories into stylish grid and listing layouts to the pages built with Elementor page builder.
+JetWidgets for Elementor and WooCommerce is a plugin that allows adding WooCommerce Products and Categories into stylish grid and listing layouts to the pages built with Elementor page builder.
 
 == Description ==
 
