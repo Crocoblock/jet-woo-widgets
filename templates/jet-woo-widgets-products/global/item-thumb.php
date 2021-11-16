@@ -12,7 +12,7 @@ if ( null === $thumbnail ) {
 }
 ?>
 <div class="jet-woo-product-thumbnail">
-	<a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark"><?php echo $thumbnail; ?></a>
+	<a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark"><?php echo wp_kses_post( $thumbnail ); ?></a>
 	<div class="jet-woo-product-img-overlay"></div><?php
 		if ( null != $sale_badge && 'yes' === $this->get_attr( 'show_badges' ) ) {
 			echo sprintf( '<div class="jet-woo-product-badges">%s</div>', $sale_badge );

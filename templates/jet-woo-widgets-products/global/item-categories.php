@@ -10,4 +10,4 @@ if ( 'yes' !== $this->get_attr( 'show_cat' ) || false === $categories ) {
 }
 ?>
 
-<div class="jet-woo-product-categories"><?php echo $categories; ?></div>
+<div class="jet-woo-product-categories"><?php echo wp_kses_post( $categories ); ?></div>

@@ -21,7 +21,7 @@ if ( ! defined( 'WPINC' ) ) {
 	<?php } ?>
 	<?php if ( ! empty( $args['children'] ) ) { ?>
 		<div class="cx-ui-kit__content cx-control__content" role="group" >
-			<?php echo $args['children']; ?>
+			<?php echo CX_Interface_Builder::kses( $args['children'] ); ?>
 		</div>
 	<?php } ?>
 </div>

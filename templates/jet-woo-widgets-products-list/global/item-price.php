@@ -10,4 +10,4 @@ if ( 'yes' !== $this->get_attr( 'show_price' ) || '' === $price ) {
 }
 ?>
 
-<div class="jet-woo-product-price"><?php echo $price; ?></div>
+<div class="jet-woo-product-price"><?php echo wp_kses_post( $price ); ?></div>

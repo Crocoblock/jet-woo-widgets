@@ -11,4 +11,4 @@ if ( 'yes' !== $this->get_attr( 'show_image' ) || null === $thumbnail ) {
 }
 ?>
 
-<div class="jet-woo-product-thumbnail"><?php echo $thumbnail; ?></div>
+<div class="jet-woo-product-thumbnail"><?php echo wp_kses_post( $thumbnail ); ?></div>

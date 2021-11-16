@@ -297,7 +297,7 @@ if ( ! class_exists( 'CX_Control_Repeater' ) ) {
 		 * @return void
 		 */
 		public function print_js_template() {
-			echo $this->get_js_template();
+			echo CX_Interface_Builder::kses( $this->get_js_template() );
 		}
 
 		/**

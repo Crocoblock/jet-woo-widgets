@@ -11,4 +11,4 @@ if ( 'yes' !== $this->get_attr( 'show_title' ) || '' === $title ) {
 }
 ?>
 
-<div class="jet-woo-product-title"><a href="<?php echo $title_link; ?>" rel="bookmark"><?php echo $title; ?></a></div>
+<div class="jet-woo-product-title"><a href="<?php echo wp_kses_post( $title_link ); ?>" rel="bookmark"><?php echo wp_kses_post( $title ); ?></a></div>

@@ -523,7 +523,7 @@ if ( ! class_exists( 'CX_Interface_Builder' ) ) {
 			if ( ! filter_var( $echo, FILTER_VALIDATE_BOOLEAN ) ) {
 				return $output;
 			} else {
-				echo $output;
+				echo self::kses( $output );
 			}
 		}
 
@@ -567,6 +567,10 @@ if ( ! class_exists( 'CX_Interface_Builder' ) ) {
 				$this->version,
 				'all'
 			);
+		}
+
+		public static function kses( $string ) {
+			return apply_filters( 'cx-interface-builder/kses', $string );
 		}
 
 	}

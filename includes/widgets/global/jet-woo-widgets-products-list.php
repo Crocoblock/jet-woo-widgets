@@ -209,7 +209,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			$attributes[ $attr ] = $attr_val;
 		}
 
-		echo $shortcode_obj->do_shortcode( $attributes );
+		echo wp_kses_post( $shortcode_obj->do_shortcode( $attributes ) );
 
 		$this->__close_wrap();
 	}

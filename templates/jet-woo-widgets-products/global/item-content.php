@@ -9,4 +9,4 @@ if ( 'yes' !== $this->get_attr( 'show_excerpt' ) || null === $excerpt ) {
 }
 ?>
 
-<div class="jet-woo-product-excerpt"><?php echo $excerpt; ?></div>
+<div class="jet-woo-product-excerpt"><?php echo wp_kses_post( $excerpt ); ?></div>

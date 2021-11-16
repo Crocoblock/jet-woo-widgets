@@ -10,4 +10,4 @@ if ( 'yes' !== $this->get_attr( 'show_tag' ) || false === $tags ) {
 }
 ?>
 
-<div class="jet-woo-product-tags"><?php echo $tags; ?></div>
+<div class="jet-woo-product-tags"><?php echo wp_kses_post( $tags ); ?></div>

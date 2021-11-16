@@ -10,4 +10,4 @@ if ( 'yes' !== $this->get_attr( 'show_rating' ) || '' === $rating ) {
 }
 ?>
 
-<div class="jet-woo-product-rating"><?php echo $rating; ?></div>
+<div class="jet-woo-product-rating"><?php echo wp_kses_post( $rating ); ?></div>

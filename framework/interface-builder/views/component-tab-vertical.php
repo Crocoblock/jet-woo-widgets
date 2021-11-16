@@ -18,10 +18,10 @@ if ( ! defined( 'WPINC' ) ) {
 	<?php if ( ! empty( $args['children'] ) ) { ?>
 		<div class="cx-tab__body" >
 			<div class="cx-tab__tabs" role="navigation" >
-				<?php echo $args['tabs']; ?>
+				<?php echo CX_Interface_Builder::kses( $args['tabs'] ); ?>
 			</div>
 			<div class="cx-ui-kit__content cx-component__content cx-tab__content" role="group" >
-				<?php echo $args['children']; ?>
+				<?php echo CX_Interface_Builder::kses( $args['children'] ); ?>
 			</div>
 		</div>
 	<?php } ?>

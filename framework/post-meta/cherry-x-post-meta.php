@@ -2,7 +2,7 @@
 /**
  * Post Meta module
  *
- * Version: 1.0.0
+ * Version: 0.9.0
  */
 
 // If this file is called directly, abort.
@@ -272,7 +272,7 @@ if ( ! class_exists( 'Cherry_X_Post_Meta' ) ) {
 			$custom_box = apply_filters( 'cx_post_meta/custom_box', false, $post, $metabox );
 
 			if ( false !== $custom_box ) {
-				echo $custom_box;
+				echo wp_kses_post( $custom_box );
 				return;
 			}
 
