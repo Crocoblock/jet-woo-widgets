@@ -43,6 +43,10 @@ class Jet_Woo_Widgets_Products_Shortcode extends Jet_Woo_Widgets_Shortcode_Base 
 				'desktop_default' => 3,
 				'tablet_default'  => 2,
 				'mobile_default'  => 1,
+				'render_type'     => 'template',
+				'selectors'       => [
+					'{{WRAPPER}} .jet-woo-products .jet-woo-products__item' => '--columns: {{VALUE}}',
+				],
 				'options'         => $columns,
 			),
 			'equal_height_cols'     => array(

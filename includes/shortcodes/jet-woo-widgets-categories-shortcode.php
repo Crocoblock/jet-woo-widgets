@@ -42,6 +42,10 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'desktop_default' => 3,
 				'tablet_default'  => 2,
 				'mobile_default'  => 1,
+				'render_type'     => 'template',
+				'selectors'       => [
+					'{{WRAPPER}} .jet-woo-categories .jet-woo-categories__item' => '--columns: {{VALUE}}',
+				],
 				'options'         => $columns,
 			),
 			'equal_height_cols'  => array(
