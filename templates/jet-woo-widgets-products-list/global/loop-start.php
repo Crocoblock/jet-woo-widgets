@@ -14,4 +14,4 @@ if ( $layout ) {
 }
 ?>
 
-<ul class="<?php echo implode( ' ', $classes ); ?>">
+<ul class="<?php echo esc_attr( implode( ' ', $classes ) ); ?>">

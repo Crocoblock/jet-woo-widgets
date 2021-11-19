@@ -17,6 +17,6 @@ if ( $enable_thumb_effect ){
 	array_push( $classes, 'jet-woo-thumb-with-effect' );
 }
 ?>
-<div class="jet-woo-products__item <?php echo implode( ' ', $classes ); ?>">
+<div class="jet-woo-products__item <?php echo esc_attr( implode( ' ', $classes ) ); ?>">
 	<div class="jet-woo-products__inner-box"><?php include $this->get_product_preset_template(); ?></div>
 </div>

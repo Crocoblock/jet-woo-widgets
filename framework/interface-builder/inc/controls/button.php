@@ -48,7 +48,7 @@ if ( ! class_exists( 'CX_Control_Button' ) ) {
 			);
 
 			$classes = array_filter( $classes );
-			$class   = trim( implode( ' ', $classes ) );
+			$class   = trim( esc_attr( implode( ' ', $classes ) ) );
 			$attrs   = array(
 				'type'       => esc_attr( $this->settings['button_type'] ),
 				'id'         => esc_attr( $this->settings['id'] ),

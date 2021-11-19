@@ -235,7 +235,7 @@ class Jet_Woo_Widgets_Products_List_Shortcode extends Jet_Woo_Widgets_Shortcode_
 
 		$query_args['posts_per_page'] = intval( $this->get_attr( 'number' ) );
 		$product_visibility_term_ids  = wc_get_product_visibility_term_ids();
-		$viewed_products              = ! empty( $_COOKIE['woocommerce_recently_viewed'] ) ? (array)explode( '|', wp_unslash( $_COOKIE['woocommerce_recently_viewed'] ) ) : array();
+		$viewed_products              = ! empty( $_COOKIE['woocommerce_recently_viewed'] ) ? jet_woo_widgets_tools()->extract_ids_array_from_string( $_COOKIE['woocommerce_recently_viewed'] ) : array();
 		$viewed_products              = array_reverse( array_filter( array_map( 'absint', $viewed_products ) ) );
 
 		if ( ( 'viewed' === $this->get_attr( 'products_query' ) ) && empty( $viewed_products ) ) {

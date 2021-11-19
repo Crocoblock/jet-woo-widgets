@@ -208,13 +208,13 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Template_Functions' ) ) {
 					'jet-woo-widgets/template-functions/product-add-to-cart-settings',
 					array(
 						'quantity'   => 1,
-						'class'      => implode( ' ', array_filter( array(
+						'class'      => esc_attr( implode( ' ', array_filter( array(
 							'button',
 							$classes,
 							'product_type_' . $product->get_type(),
 							$product->is_purchasable() && $product->is_in_stock() ? 'add_to_cart_button' : '',
 							$product->supports( 'ajax_add_to_cart' ) ? 'ajax_add_to_cart' : '',
-						) ) ),
+						) ) ) ),
 						'attributes' => array(
 							'data-product_id'  => $product->get_id(),
 							'data-product_sku' => $product->get_sku(),
