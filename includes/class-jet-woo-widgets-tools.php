@@ -304,7 +304,19 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 
 			$format = apply_filters( 'jet_woo_widgets/carousel/arrows_format', '<i class="%s jet-arrow"></i>', $classes );
 
-			return sprintf( $format, implode( ' ', $classes ) );
+			return sprintf( $format, esc_attr( implode( ' ', $classes ) ) );
+		}
+
+		/**
+		 * Extract IDs array from given string
+		 *
+		 * @param  string $string    [description]
+		 * @param  string $delimiter [description]
+		 * @return [type]            [description]
+		 */
+		public function extract_ids_array_from_string( $string = '', $delimiter = '|' ) {
+			$array_ids = explode( $delimiter, wp_unslash( $string ) );
+			return array_filter( array_map( 'absint', $array_ids ) );
 		}
 
 		/**

@@ -18,4 +18,4 @@ if ( $equal ) {
 
 ?>
 
-<div class="<?php echo implode( ' ', $classes ); ?>">
+<div class="<?php echo esc_attr( implode( ' ', $classes ) ); ?>">

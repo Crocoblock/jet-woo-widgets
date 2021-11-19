@@ -52,7 +52,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Integration' ) ) {
 			add_action( 'elementor/controls/controls_registered', array( $this, 'add_controls' ), 10 );
 
 			add_action( 'template_redirect', array( $this, 'set_track_product_view' ), 20 );
-			
+
 		}
 
 		/**
@@ -68,7 +68,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Integration' ) ) {
 				array(),
 				jet_woo_widgets()->get_version()
 			);
-			
+
 		}
 
 		/**
@@ -84,7 +84,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Integration' ) ) {
 			if ( empty( $_COOKIE['woocommerce_recently_viewed'] ) ){
 				$viewed_products = array();
 			} else{
-				$viewed_products = (array) explode( '|', $_COOKIE['woocommerce_recently_viewed'] );
+				$viewed_products = jet_woo_widgets_tools()->extract_ids_array_from_string( $_COOKIE['woocommerce_recently_viewed'] );
 			}
 
 			if ( ! in_array( $post->ID, $viewed_products ) ) {
@@ -152,7 +152,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Integration' ) ) {
 					$this->register_widget( $file, $widgets_manager );
 				}
 			}
-			
+
 		}
 
 

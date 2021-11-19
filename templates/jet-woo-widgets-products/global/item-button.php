@@ -18,4 +18,4 @@ if ( 'yes' === $this->get_attr( 'button_use_ajax_style' ) ){
 global $product;
 ?>
 
-<div class="<?php echo implode( ' ', $classes ); ?>"><?php jet_woo_widgets_template_functions()->get_product_add_to_cart_button(); ?></div>
+<div class="<?php echo esc_attr( implode( ' ', $classes ) ); ?>"><?php jet_woo_widgets_template_functions()->get_product_add_to_cart_button(); ?></div>

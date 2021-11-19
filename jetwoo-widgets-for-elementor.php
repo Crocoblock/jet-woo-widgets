@@ -94,12 +94,9 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 
 			require $this->plugin_path( 'framework/loader.php' );
 
-			$this->framework = new Jet_Woo_Widgets_CX_Loader(
-				array(
-					$this->plugin_path( 'framework/interface-builder/cherry-x-interface-builder.php' ),
-					$this->plugin_path( 'framework/post-meta/cherry-x-post-meta.php' ),
-				)
-			);
+			$this->framework = new Jet_Woo_Widgets_CX_Loader( array(
+				$this->plugin_path( 'framework/interface-builder/cherry-x-interface-builder.php' ),
+			) );
 
 		}
 
