@@ -174,14 +174,6 @@
 	}
 	
 	&.jet-equal-cols {
-		.slick-track {
-			display: flex;
-			align-items: stretch;
-			.jet-woo-products__item {
-				flex: 0 0 auto;
-			}
-		}
-		
 		.jet-woo-products__item {
 			height: auto;
 			display: flex;
@@ -190,7 +182,6 @@
 			.jet-woo-products__inner-content {
 				flex-grow: 1;
 			}
-			
 		}
 	}
 	

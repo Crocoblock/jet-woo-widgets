@@ -40,7 +40,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 		return jet_woo_widgets_shortocdes()->get_shortcode( $this->get_name() );
 	}
 
-	protected function _register_controls() {
+	protected function register_controls() {
 
 		$this->start_controls_section(
 			'section_general',

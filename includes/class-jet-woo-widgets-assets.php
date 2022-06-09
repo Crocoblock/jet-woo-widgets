@@ -87,6 +87,16 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Assets' ) ) {
 				apply_filters( 'jet-woo-widgets/frontend/localize-data', array() )
 			);
 
+			if ( ! wp_script_is( 'jquery-slick' ) ) {
+				wp_enqueue_script(
+					'jquery-slick',
+					jet_woo_widgets()->plugin_url( 'assets/lib/slick/slick.min.js' ),
+					[ 'jquery' ],
+					'1.8.1',
+					true
+				);
+			}
+
 		}
 
 		/**
