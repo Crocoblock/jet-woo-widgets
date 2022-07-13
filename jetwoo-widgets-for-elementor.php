@@ -2,7 +2,7 @@
 /**
  * Plugin Name: JetWidgets for Elementor and WooCommerce
  * Description: Set of modules for WooCommerce based on Elementor Page Builder
- * Version:     1.1.3
+ * Version:     1.1.4
  * Author:      Crocoblock
  * Author URI:  https://crocoblock.com/
  * Text Domain: jetwoo-widgets-for-elementor
@@ -47,7 +47,7 @@ if ( ! class_exists( 'Jet_Woo_Widgets' ) ) {
 		 *
 		 * @var string
 		 */
-		private $version = '1.1.3';
+		private $version = '1.1.4';
 
 		/**
 		 * Framework loader instance
