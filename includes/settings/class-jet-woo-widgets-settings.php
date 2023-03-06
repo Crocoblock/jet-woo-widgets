@@ -120,6 +120,10 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 		 */
 		public function save() {
 
+			if ( empty( $_REQUEST['_nonce'] ) || ! wp_verify_nonce( $_REQUEST['_nonce'], 'jetwoo-widgets-for-elementor-save' ) ) {
+				return;
+			}
+
 			if ( ! isset( $_REQUEST['page'] ) || $this->key !== $_REQUEST['page'] ) {
 				return;
 			}
@@ -333,6 +337,12 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Settings' ) ) {
 						'parent' => 'settings_bottom',
 						'class'  => 'cx-component dialog-save',
 						'html'   => '<button type="submit" class="button button-primary">' . esc_html__( 'Save', 'jetwoo-widgets-for-elementor' ) . '</button>',
+					),
+					'_nonce' => array(
+						'type'   => 'html',
+						'parent' => 'settings_bottom',
+						'class'  => 'cherry-control hidden-row',
+						'html'   => '<input type="hidden" name="_nonce" value="' . esc_attr( wp_create_nonce( 'jetwoo-widgets-for-elementor-save' ) ) . '">',
 					),
 				)
 			);
