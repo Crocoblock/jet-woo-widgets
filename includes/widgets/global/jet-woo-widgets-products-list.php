@@ -11,8 +11,8 @@ use Elementor\Controls_Manager;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Typography;
-use Elementor\Core\Schemes\Color as Scheme_Color;
-use Elementor\Core\Schemes\Typography as Scheme_Typography;
+use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -549,7 +549,9 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			Group_Control_Typography::get_type(),
 			array(
 				'name'     => 'title_typography',
-				'scheme'   => Scheme_Typography::TYPOGRAPHY_3,
+				'global' => array(
+					'default' => Global_Typography::TYPOGRAPHY_TEXT,
+				),
 				'selector' => '{{WRAPPER}} ' . $css_scheme['title'],
 			)
 		);
@@ -568,9 +570,8 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			array(
 				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
-				'scheme'    => array(
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_2,
+				'global' => array(
+					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['title'] . ' a' => 'color: {{VALUE}}',
@@ -592,9 +593,8 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			array(
 				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
-				'scheme'    => array(
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_2,
+				'global' => array(
+					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['title'] . ' a:hover' => 'color: {{VALUE}}',
@@ -653,7 +653,9 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			Group_Control_Typography::get_type(),
 			array(
 				'name'     => 'cats_typography',
-				'scheme'   => Scheme_Typography::TYPOGRAPHY_3,
+				'global' => array(
+					'default' => Global_Typography::TYPOGRAPHY_TEXT,
+				),
 				'selector' => '{{WRAPPER}} ' . $css_scheme['cats'],
 				'exclude' => array( 'text_decoration' ),
 			)
@@ -673,9 +675,8 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			array(
 				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
-				'scheme'    => array(
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_2,
+				'global' => array(
+					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['cats'] . ' a' => 'color: {{VALUE}}',
@@ -698,9 +699,8 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			array(
 				'label'     => esc_html__( 'Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
-				'scheme'    => array(
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_2,
+				'global' => array(
+					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
 					'{{WRAPPER}} ' . $css_scheme['cats'] . ' a:hover' => 'color: {{VALUE}}',
@@ -1218,7 +1218,9 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 			Group_Control_Typography::get_type(),
 			array(
 				'name'     => 'button_typography',
-				'scheme'   => Scheme_Typography::TYPOGRAPHY_3,
+				'global' => array(
+					'default' => Global_Typography::TYPOGRAPHY_TEXT,
+				),
 				'selector' => '{{WRAPPER}}  ' . $css_scheme['button'],
 			)
 		);
@@ -1259,9 +1261,8 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'label'     => _x( 'Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'default'   => '',
-				'scheme'    => array(
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+				'global' => array(
+					'default' => Global_Colors::COLOR_PRIMARY,
 				),
 				'title'     => _x( 'Background Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'selectors' => array(
@@ -1488,9 +1489,8 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'label'     => _x( 'Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'default'   => '',
-				'scheme'    => array(
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+				'global' => array(
+					'default' => Global_Colors::COLOR_PRIMARY,
 				),
 				'title'     => _x( 'Background Color', 'Background Control', 'jetwoo-widgets-for-elementor' ),
 				'selectors' => array(
