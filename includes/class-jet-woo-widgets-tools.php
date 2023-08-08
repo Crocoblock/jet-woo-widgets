@@ -415,9 +415,9 @@ if ( ! class_exists( 'Jet_Woo_Widgets_Tools' ) ) {
 
 			$options = array(
 				'slidesToShow'   => array(
-					'desktop' => absint( $settings['columns'] ),
-					'tablet'  => absint( $settings['columns_tablet'] ),
-					'mobile'  => absint( $settings['columns_mobile'] ),
+					'desktop' => !empty($settings['columns']) ? absint($settings['columns']) : 3,
+					'tablet'  => !empty($settings['columns_tablet']) ? absint($settings['columns_tablet']) : 2,
+					'mobile'  => !empty($settings['columns_mobile']) ? absint($settings['columns_mobile']) : 1,
 				),
 				'autoplaySpeed'  => absint( $settings['autoplay_speed'] ),
 				'autoplay'       => filter_var( $settings['autoplay'], FILTER_VALIDATE_BOOLEAN ),

@@ -5,14 +5,14 @@
 	margin-right: -10px;
 
 	&.disable-cols-gap {
-		div[class*="col-desk"] {
+		> div[ class *= "item" ] {
 			padding-left: 0;
 			padding-right: 0;
 		}
 	}
 
 	&.disable-rows-gap {
-		div[class*="col-desk"] {
+		> div[ class *= "item" ] {
 			padding-top: 0;
 			padding-bottom: 0;
 		}

@@ -36,7 +36,7 @@ class Jet_Woo_Widgets_Products_Shortcode extends Jet_Woo_Widgets_Shortcode_Base 
 					'preset-5' => esc_html__( 'Preset 5', 'jetwoo-widgets-for-elementor' ),
 				),
 			),
-			'columns'               => array(
+			'columns'             => array(
 				'type'            => 'select',
 				'responsive'      => true,
 				'label'           => esc_html__( 'Columns', 'jetwoo-widgets-for-elementor' ),

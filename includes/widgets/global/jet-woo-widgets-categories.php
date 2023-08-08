@@ -117,6 +117,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'selectors'   => array(
 					'{{WRAPPER}} ' . $css_scheme['inner-box'] => 'min-height: {{VALUE}}px;',
 				),
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 
 			)
 		);
@@ -129,6 +132,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'default'   => '1',
 				'options'   => jet_woo_widgets_tools()->get_select_range( 4 ),
 				'condition' => array(
+					'carousel_enabled!' => '',
 					'columns!' => '1',
 				),
 			)
@@ -143,6 +147,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => 'true',
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 			)
 		);
 
@@ -154,6 +161,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'default'   => 'fa fa-angle-left',
 				'options'   => jet_woo_widgets_tools()->get_available_prev_arrows_list(),
 				'condition' => array(
+					'carousel_enabled!' => '',
 					'arrows' => 'true',
 				),
 			)
@@ -167,6 +175,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'default'   => 'fa fa-angle-right',
 				'options'   => jet_woo_widgets_tools()->get_available_next_arrows_list(),
 				'condition' => array(
+					'carousel_enabled!' => '',
 					'arrows' => 'true',
 				),
 			)
@@ -181,6 +190,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => '',
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 			)
 		);
 
@@ -193,6 +205,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => '',
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 			)
 		);
 
@@ -205,6 +220,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => 'true',
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 			)
 		);
 
@@ -215,6 +233,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'type'      => Controls_Manager::NUMBER,
 				'default'   => 5000,
 				'condition' => array(
+					'carousel_enabled!' => '',
 					'autoplay' => 'true',
 				),
 			)
@@ -229,6 +248,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label_off'    => esc_html__( 'No', 'jetwoo-widgets-for-elementor' ),
 				'return_value' => 'true',
 				'default'      => 'true',
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 			)
 		);
 
@@ -243,6 +265,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 					'fade'  => esc_html__( 'Fade', 'jetwoo-widgets-for-elementor' ),
 				),
 				'condition' => array(
+					'carousel_enabled!' => '',
 					'columns' => '1',
 				),
 			)
@@ -254,6 +277,9 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label'   => esc_html__( 'Animation Speed', 'jetwoo-widgets-for-elementor' ),
 				'type'    => Controls_Manager::NUMBER,
 				'default' => 500,
+				'condition' => array(
+					'carousel_enabled!' => '',
+				),
 			)
 		);
 
@@ -1833,7 +1859,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			\Jet_Woo_Widgets_Group_Control_Box_Style::get_type(),
 			array(
 				'name'           => 'dots_style',
-				'selector'       => '{{WRAPPER}} .jet-woo-carousel .jet-slick-dots li span',
+				'selector'       => '{{WRAPPER}} .jet-woo-carousel .jet-slick-dots li',
 				'fields_options' => array(
 					'color' => array(
 						'global' => array(
@@ -1857,7 +1883,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			\Jet_Woo_Widgets_Group_Control_Box_Style::get_type(),
 			array(
 				'name'           => 'dots_style_hover',
-				'selector'       => '{{WRAPPER}} .jet-woo-carousel .jet-slick-dots li span:hover',
+				'selector'       => '{{WRAPPER}} .jet-woo-carousel .jet-slick-dots li:hover',
 				'fields_options' => array(
 					'color' => array(
 						'global' => array(
@@ -1881,7 +1907,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 			\Jet_Woo_Widgets_Group_Control_Box_Style::get_type(),
 			array(
 				'name'           => 'dots_style_active',
-				'selector'       => '{{WRAPPER}} .jet-woo-carousel .jet-slick-dots li.slick-active span',
+				'selector'       => '{{WRAPPER}} .jet-woo-carousel .jet-slick-dots li.slick-active',
 				'fields_options' => array(
 					'color' => array(
 						'global' => array(
