@@ -80,7 +80,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'thumb'         => '.jet-woo-categories .jet-woo-category-thumbnail',
 				'content'       => '.jet-woo-categories .jet-woo-categories-content',
 				'title-wrap'    => '.jet-woo-categories .jet-woo-categories-title__wrap',
-				'title'         => '.jet-woo-categories .jet-woo-category-title',
+				'title'         => '.jet-woo-categories .jet-woo-category-title a',
 				'count-wrap'    => '.jet-woo-categories .jet-woo-category-count__wrap',
 				'count'         => '.jet-woo-categories .jet-woo-category-count',
 				'excerpt'       => '.jet-woo-categories .jet-woo-category-excerpt',
