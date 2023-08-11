@@ -81,6 +81,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'content'       => '.jet-woo-categories .jet-woo-categories-content',
 				'title-wrap'    => '.jet-woo-categories .jet-woo-categories-title__wrap',
 				'title'         => '.jet-woo-categories .jet-woo-category-title a',
+				'title-box'     => '.jet-woo-categories .jet-woo-category-title',
 				'count-wrap'    => '.jet-woo-categories .jet-woo-category-count__wrap',
 				'count'         => '.jet-woo-categories .jet-woo-category-count',
 				'excerpt'       => '.jet-woo-categories .jet-woo-category-excerpt',
@@ -809,7 +810,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title-box'] => 'background-color: {{VALUE}}',
 				),
 			)
 		);
@@ -832,7 +833,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] . ' a' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title'] => 'color: {{VALUE}}',
 				),
 			)
 		);
@@ -855,7 +856,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] . ' a:hover' => 'color: {{VALUE}}!important',
+					'{{WRAPPER}} ' . $css_scheme['title'] . ':hover' => 'color: {{VALUE}}!important',
 				),
 			)
 		);
@@ -885,7 +886,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 					),
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title']      => 'text-align: {{VALUE}};',
+					'{{WRAPPER}} ' . $css_scheme['title-box']  => 'text-align: {{VALUE}};',
 					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'text-align: {{VALUE}};',
 				),
 				'classes'   => 'elementor-control-align',
@@ -900,7 +901,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['title-box'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -912,7 +913,7 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['title-box'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);

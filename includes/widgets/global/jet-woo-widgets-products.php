@@ -78,8 +78,11 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'inner-box'   => '.jet-woo-products .jet-woo-products__inner-box',
 				'thumb'       => '.jet-woo-products .jet-woo-product-thumbnail',
 				'title'       => '.jet-woo-products .jet-woo-product-title a',
+				'title-wrap'  => '.jet-woo-products .jet-woo-product-title',
 				'categories'  => '.jet-woo-products .jet-woo-product-categories a',
+				'cats-wrap'   => '.jet-woo-products .jet-woo-product-categories',
 				'tags'        => '.jet-woo-products .jet-woo-product-tags a',
+				'tags-wrap'   => '.jet-woo-products .jet-woo-product-tags',
 				'excerpt'     => '.jet-woo-products .jet-woo-product-excerpt',
 				'rating'      => '.jet-woo-products .jet-woo-product-rating',
 				'price'       => '.jet-woo-products .jet-woo-product-price',
@@ -684,7 +687,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['tags'] . ' a:hover' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['tags'] . ':hover' => 'color: {{VALUE}}',
 				),
 			)
 		);
@@ -715,7 +718,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				),
 				'classes'   => 'elementor-control-align',
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['tags'] => 'text-align: {{VALUE}};',
+					'{{WRAPPER}} ' . $css_scheme['tags-wrap'] => 'text-align: {{VALUE}};',
 				),
 				'separator' => 'before'
 			)
@@ -728,7 +731,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['tags'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['tags-wrap'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -740,7 +743,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['tags'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['tags-wrap'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -755,7 +758,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'max'       => 10,
 				'step'      => 1,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['tags'] => 'order: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['tags-wrap'] => 'order: {{VALUE}}',
 				),
 				'condition' => array(
 					'presets' => array( 'preset-1' )
@@ -832,7 +835,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['categories'] . ' a:hover' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['categories'] . ':hover' => 'color: {{VALUE}}',
 				),
 			)
 		);
@@ -863,7 +866,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				),
 				'classes'   => 'elementor-control-align',
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['categories'] => 'text-align: {{VALUE}};',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'text-align: {{VALUE}};',
 				),
 				'separator' => 'before'
 			)
@@ -876,7 +879,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['categories'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -888,7 +891,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['categories'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -903,7 +906,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'max'       => 10,
 				'step'      => 1,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['categories'] => 'order: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'order: {{VALUE}}',
 				),
 				'condition' => array(
 					'presets' => array( 'preset-1' )
@@ -2159,7 +2162,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'label'     => esc_html__( 'Background Color', 'jetwoo-widgets-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'background-color: {{VALUE}}',
 				),
 			)
 		);
@@ -2205,7 +2208,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] . ' a:hover' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title'] . ':hover' => 'color: {{VALUE}}',
 				),
 			)
 		);
@@ -2236,7 +2239,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				),
 				'classes'   => 'elementor-control-align',
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'text-align: {{VALUE}};',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'text-align: {{VALUE}};',
 				),
 				'separator' => 'before'
 			)
@@ -2249,7 +2252,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -2261,7 +2264,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -2276,7 +2279,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 				'max'       => 10,
 				'step'      => 1,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'order: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'order: {{VALUE}}',
 				),
 				'condition' => array(
 					'presets' => array( 'preset-1' )

@@ -76,7 +76,9 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'thumb'       => '.jet-woo-products-list .jet-woo-products-list__item-img',
 				'content'     => '.jet-woo-products-list .jet-woo-products-list__item-content',
 				'cats'        => '.jet-woo-products-list .jet-woo-product-categories a',
+				'cats-wrap'   => '.jet-woo-products-list .jet-woo-product-categories',
 				'title'       => '.jet-woo-products-list .jet-woo-product-title a',
+				'title-wrap'  => '.jet-woo-products-list .jet-woo-product-title',
 				'price'       => '.jet-woo-products-list .jet-woo-product-price',
 				'rating'      => '.jet-woo-products-list .jet-woo-product-rating',
 				'currency'    => '.jet-woo-products-list .jet-woo-product-price .woocommerce-Price-currencySymbol',
@@ -597,7 +599,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] . ' a:hover' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title'] . ':hover' => 'color: {{VALUE}}',
 				),
 			)
 		);
@@ -613,7 +615,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -625,7 +627,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -640,7 +642,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'max'       => 10,
 				'step'      => 1,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] => 'order: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title-wrap'] => 'order: {{VALUE}}',
 				),
 			)
 		);
@@ -703,7 +705,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['cats'] . ' a:hover' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['cats'] . ':hover' => 'color: {{VALUE}}',
 				),
 			)
 		);
@@ -719,7 +721,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['cats'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -731,7 +733,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => array( 'px', '%', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} ' . $css_scheme['cats'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			)
 		);
@@ -746,7 +748,7 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 				'max'       => 10,
 				'step'      => 1,
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['cats'] => 'order: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['cats-wrap'] => 'order: {{VALUE}}',
 				),
 			)
 		);
