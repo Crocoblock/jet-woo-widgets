@@ -2185,7 +2185,7 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 					'default' => Global_Colors::COLOR_SECONDARY,
 				),
 				'selectors' => array(
-					'{{WRAPPER}} ' . $css_scheme['title'] . ' a' => 'color: {{VALUE}}',
+					'{{WRAPPER}} ' . $css_scheme['title'] => 'color: {{VALUE}}',
 				),
 			)
 		);
