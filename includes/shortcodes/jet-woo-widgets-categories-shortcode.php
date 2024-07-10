@@ -27,13 +27,7 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 				'type'    => 'select',
 				'label'   => esc_html__( 'Category Presets', 'jetwoo-widgets-for-elementor' ),
 				'default' => 'preset-1',
-				'options' => array(
-					'preset-1' => esc_html__( 'Preset 1', 'jetwoo-widgets-for-elementor' ),
-					'preset-2' => esc_html__( 'Preset 2', 'jetwoo-widgets-for-elementor' ),
-					'preset-3' => esc_html__( 'Preset 3', 'jetwoo-widgets-for-elementor' ),
-					'preset-4' => esc_html__( 'Preset 4', 'jetwoo-widgets-for-elementor' ),
-					'preset-5' => esc_html__( 'Preset 5', 'jetwoo-widgets-for-elementor' ),
-				),
+				'options' => $this->get_allowed_presets(),
 			),
 			'columns'            => array(
 				'type'            => 'select',
@@ -224,6 +218,21 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 	}
 
 	/**
+	 * Get list of allowed presets names
+	 * 
+	 * @return [type] [description]
+	 */
+	public function get_allowed_presets() {
+		return array(
+			'preset-1' => esc_html__( 'Preset 1', 'jetwoo-widgets-for-elementor' ),
+			'preset-2' => esc_html__( 'Preset 2', 'jetwoo-widgets-for-elementor' ),
+			'preset-3' => esc_html__( 'Preset 3', 'jetwoo-widgets-for-elementor' ),
+			'preset-4' => esc_html__( 'Preset 4', 'jetwoo-widgets-for-elementor' ),
+			'preset-5' => esc_html__( 'Preset 5', 'jetwoo-widgets-for-elementor' ),
+		);
+	}
+
+	/**
 	 * Get type template
 	 *
 	 * @param  [type] $name [description]
@@ -231,7 +240,13 @@ class Jet_Woo_Widgets_Categories_Shortcode extends Jet_Woo_Widgets_Shortcode_Bas
 	 * @return [type]       [description]
 	 */
 	public function get_category_preset_template() {
-		return jet_woo_widgets()->get_template( $this->get_tag() . '/global/presets/' . $this->get_attr( 'presets' ) . '.php' );
+		
+		$base_dir        = $this->get_tag();
+		$preset          = $this->get_attr( 'presets' );
+		$allowed_presets = array_keys( $this->get_allowed_presets() );
+		$preset          = in_array( $preset, $allowed_presets ) ? $preset : 'preset-1';
+
+		return jet_woo_widgets()->get_template( $base_dir . '/global/presets/' . $preset . '.php' );
 	}
 
 	/**
