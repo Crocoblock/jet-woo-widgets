@@ -3005,8 +3005,4 @@ class Jet_Woo_Widgets_Products extends Jet_Woo_Widgets_Base {
 		);
 
 	}
-
-	protected function _content_template() {
-	}
-
 }

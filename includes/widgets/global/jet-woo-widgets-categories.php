@@ -1985,7 +1985,4 @@ class Jet_Woo_Widgets_Categories extends Jet_Woo_Widgets_Base {
 		);
 
 	}
-
-	protected function _content_template() {
-	}
 }

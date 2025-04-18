@@ -1713,7 +1713,4 @@ class Jet_Woo_Widgets_Products_List extends Jet_Woo_Widgets_Base {
 		);
 
 	}
-
-	protected function _content_template() {
-	}
 }
